@@ -1,4 +1,3 @@
-"""Staged feature matcher: spatial buffer, name similarity, one-to-one assignment, ambiguity flag."""
 from __future__ import annotations
 
 import re

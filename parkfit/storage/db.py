@@ -1,4 +1,3 @@
-"""Fused-feature store with interchangeable SQLite and PostGIS backends."""
 from __future__ import annotations
 
 import json

@@ -1,4 +1,3 @@
-"""Parser tests on small, hand-written fixtures that mimic each source's raw format."""
 from datetime import UTC, datetime
 
 from parkfit.ingest import overpass, pls, zurich_ogd

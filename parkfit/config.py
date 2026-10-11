@@ -1,4 +1,3 @@
-"""Central configuration: study area, paths, API settings and per-source confidence priors."""
 from __future__ import annotations
 
 import os

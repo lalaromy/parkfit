@@ -1,4 +1,3 @@
-"""Command-line entry points: `parkfit ingest | run | evaluate | serve | query`."""
 from __future__ import annotations
 
 import json

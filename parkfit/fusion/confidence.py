@@ -1,4 +1,3 @@
-"""Per-observation confidence: source prior adjusted by intrinsic OSM signals (version, recency)."""
 from __future__ import annotations
 
 from datetime import UTC, datetime

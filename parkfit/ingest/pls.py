@@ -1,4 +1,3 @@
-"""Zurich Parkleitsystem operator pages: the one source besides OSM that publishes a height."""
 from __future__ import annotations
 
 import html

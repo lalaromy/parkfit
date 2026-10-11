@@ -1,4 +1,3 @@
-"""FastAPI query interface: suitability search, feature lookup, profiles and the demo page."""
 from __future__ import annotations
 
 from pathlib import Path

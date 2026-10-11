@@ -1,4 +1,3 @@
-"""OpenStreetMap adapter via Overpass (out meta, so version and timestamp reach provenance)."""
 from __future__ import annotations
 
 from datetime import UTC, datetime

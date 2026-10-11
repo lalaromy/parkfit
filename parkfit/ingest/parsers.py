@@ -1,4 +1,3 @@
-"""Value parsers shared by all sources (OSM tags are free text and need normalising)."""
 from __future__ import annotations
 
 import re

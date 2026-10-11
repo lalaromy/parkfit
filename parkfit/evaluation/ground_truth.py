@@ -1,4 +1,3 @@
-"""Load the field-survey ground truth and derive per-profile fit labels."""
 from __future__ import annotations
 
 import csv

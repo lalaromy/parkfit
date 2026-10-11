@@ -1,4 +1,3 @@
-"""Vehicle profiles used in the evaluation (manufacturer figures, rounded to the cm)."""
 PROFILES = [
     {"name": "compact car (VW Golf)", "height_m": 1.46, "width_m": 1.79, "length_m": 4.28},
     {"name": "mid-size SUV (VW Tiguan)", "height_m": 1.67, "width_m": 1.84, "length_m": 4.54},

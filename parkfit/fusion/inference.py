@@ -1,4 +1,3 @@
-"""Context priors for attributes no source reports; every value produced here is labelled inferred."""
 from __future__ import annotations
 
 from collections import defaultdict

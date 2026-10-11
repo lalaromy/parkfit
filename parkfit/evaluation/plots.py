@@ -1,4 +1,3 @@
-"""Figures for the report: per-config F1, posted vs fused height, confidence vs error."""
 from __future__ import annotations
 
 import matplotlib

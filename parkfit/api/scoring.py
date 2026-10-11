@@ -1,4 +1,3 @@
-"""Vehicle profile against fused attributes: per-dimension scores, verdicts and explanation text."""
 from __future__ import annotations
 
 from parkfit.schema import (

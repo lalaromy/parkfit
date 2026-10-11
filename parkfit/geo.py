@@ -1,4 +1,3 @@
-"""Small geodesic helpers; avoids a heavy GIS dependency for point data."""
 from __future__ import annotations
 
 import math

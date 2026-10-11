@@ -1,4 +1,3 @@
-"""Confidence-weighted voting with 5 cm tolerance clustering; dissent is kept for the explanation."""
 from __future__ import annotations
 
 from parkfit.config import settings

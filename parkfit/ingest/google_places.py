@@ -1,4 +1,3 @@
-"""Google Places (New) adapter; filters non-car places; snapshot usable offline without a key."""
 from __future__ import annotations
 
 import re

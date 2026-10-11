@@ -1,4 +1,3 @@
-"""Tests of the evaluation harness itself (added after review iteration 8: the join had none)."""
 from parkfit.evaluation.ground_truth import GroundTruthFeature
 from parkfit.evaluation.metrics import Confusion
 from parkfit.evaluation.run_eval import link_by_id

@@ -1,4 +1,3 @@
-"""City of Zurich open-data garage register (WFS, CC0): identities and capacity, no dimensions."""
 from __future__ import annotations
 
 import httpx

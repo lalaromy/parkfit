@@ -1,8 +1,3 @@
-"""Canonical data model.
-
-Every source is normalised into `SourceRecord`s carrying `Observation`s.  The fusion
-engine never touches raw source formats; it only sees this schema (proposal Section 4.1).
-"""
 from __future__ import annotations
 
 from datetime import datetime

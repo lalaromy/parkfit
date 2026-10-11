@@ -1,4 +1,3 @@
-"""Evaluation against the survey: per-configuration pipelines, identifier join, metrics, error taxonomy."""
 from __future__ import annotations
 
 import json

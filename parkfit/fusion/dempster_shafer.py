@@ -1,4 +1,3 @@
-"""Simplified Dempster-Shafer combination over value buckets, reporting the conflict mass K."""
 from __future__ import annotations
 
 from itertools import product

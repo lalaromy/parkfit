@@ -1,5 +1,3 @@
-"""End-to-end pipeline: ingest -> match -> fuse -> store.  Idempotent and resumable
-because every external call is cached (ingest/cache.py)."""
 from __future__ import annotations
 
 import json

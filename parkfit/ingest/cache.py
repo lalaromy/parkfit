@@ -1,4 +1,3 @@
-"""Raw-response archive under data/raw/, keyed by source and name, with retrieval timestamps."""
 from __future__ import annotations
 
 import json

@@ -1,4 +1,3 @@
-"""Fusion orchestration: match groups -> fused features with evidence chains."""
 from __future__ import annotations
 
 from collections.abc import Callable

@@ -1,5 +1,3 @@
-"""Binary-classification metrics (Bishop 2006; Murphy 2012) and a small helper to
-aggregate confusion counts."""
 from __future__ import annotations
 
 from dataclasses import dataclass, field
