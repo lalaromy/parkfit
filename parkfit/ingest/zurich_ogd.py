@@ -38,8 +38,6 @@ def to_records(envelope: dict, bbox: BBox = STUDY_AREA) -> list[SourceRecord]:
         sid = str(p.get("poi_id") or p.get("id"))
         prov = Provenance(source="zurich_ogd", source_id=sid,
                           url=p.get("link_pls") or settings.zurich_wfs_url, retrieved_at=retrieved)
-        # The dataset is a point-of-interest layer: 'Parkhaus' covers both underground and
-        # multi-storey facilities, so the type evidence is deliberately coarse.
         ftype = "underground" if p.get("kategorie") == "Parkhaus" else "surface"
         obs = [
             Observation(attribute="name", value=p["name"], confidence=SOURCE_PRIORS["zurich_ogd"]["name"],

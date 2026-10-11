@@ -57,7 +57,7 @@ def to_records(envelope: dict, include_unnamed_surface: bool = False) -> list[So
         if tags.get("amenity") != "parking":
             continue
         ftype = OSM_TYPE_MAP.get(tags.get("parking", ""), "unknown")
-        name = tags.get("name")  # operator is kept in extra, not used as a name: it labels lots, not facilities
+        name = tags.get("name")
         if not include_unnamed_surface and name is None and ftype in {"surface", "unknown"}:
             continue
         if "center" in el:

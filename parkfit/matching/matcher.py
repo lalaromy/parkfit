@@ -97,8 +97,6 @@ def build_groups(records_by_source: dict[str, list[SourceRecord]],
     """Group records across sources around an anchor source (the register when present)."""
     all_records = {r.key: r for recs in records_by_source.values() for r in recs}
     if anchor_source not in records_by_source:
-        # A baseline built without the register anchors on its first available source, so that
-        # a single-source configuration never sees positions or groupings from another source.
         anchor_source = next(iter(records_by_source))
     anchors = records_by_source.get(anchor_source, [])
     groups: dict[str, MatchGroup] = {}
@@ -110,8 +108,6 @@ def build_groups(records_by_source: dict[str, list[SourceRecord]],
     for src, recs in records_by_source.items():
         if src == anchor_source:
             continue
-        # PLS records inherit the coordinates of their linked OGD record, so they are
-        # joined by that explicit cross-reference rather than fuzzy matching.
         if src == "pls":
             for r in recs:
                 parent = r.extra.get("ogd_key")

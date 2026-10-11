@@ -14,14 +14,13 @@ def gt(gt_id, osm=None, ogd=None, lat=47.37, lon=8.54):
 
 
 def test_join_is_by_identifier_not_proximity(rec_factory):
-    # two garages 20 m apart; the ground truth names the farther one by id
     recs = {"zurich_ogd:a": rec_factory("zurich_ogd", "a", "Garage A", 47.3700, 8.5400),
             "zurich_ogd:b": rec_factory("zurich_ogd", "b", "Garage B", 47.3702, 8.5400)}
     groups = [MatchGroup(group_id="g0", members=["zurich_ogd:a"], anchor="zurich_ogd:a", name="Garage A", lat=47.37, lon=8.54),
               MatchGroup(group_id="g1", members=["zurich_ogd:b"], anchor="zurich_ogd:b", name="Garage B", lat=47.3702, lon=8.54)]
     feats = fuse_all(groups, recs)
     assert link_by_id(gt("GT1", ogd="b", lat=47.3700), groups, feats).feature_id == "g1"
-    assert link_by_id(gt("GT2", ogd="zzz"), groups, feats) is None  # absent -> unmatched, never nearest
+    assert link_by_id(gt("GT2", ogd="zzz"), groups, feats) is None
 
 
 def test_false_admission_rate_and_balanced_accuracy():

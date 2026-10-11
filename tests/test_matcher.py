@@ -28,7 +28,6 @@ def test_far_apart_does_not_match(rec_factory):
 
 
 def test_ambiguous_flagged_not_guessed(rec_factory):
-    # two anchor records with near-identical names 30 m apart: the matcher must abstain
     a = [rec_factory("osm", "n1", "Migros", 47.3751, 8.5362)]
     b = [rec_factory("zurich_ogd", "p1", "Migros", 47.37512, 8.53625),
          rec_factory("zurich_ogd", "p2", "Migros", 47.37530, 8.53640)]

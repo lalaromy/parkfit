@@ -28,7 +28,7 @@ def run_config(by_source: dict[str, list[SourceRecord]], sources: set[str] | Non
                ) -> tuple[list[MatchGroup], list[FusedFeature], dict[str, SourceRecord]]:
     sub = {s: recs for s, recs in by_source.items() if sources is None or s in sources}
     if "pls" in sub and "zurich_ogd" not in sub:
-        del sub["pls"]  # operator pages have no coordinates of their own
+        del sub["pls"]
     groups = build_groups(sub)
     records = {r.key: r for recs in sub.values() for r in recs}
     feats = fuse_all(groups, records, method=method)
@@ -116,7 +116,6 @@ def classify(gts, groups, feats, profiles, cfg_name: str) -> dict:
     pooled = Confusion()
     for s in per_profile.values():
         pooled.tp += s["tp"]; pooled.fp += s["fp"]; pooled.fn += s["fn"]; pooled.tn += s["tn"]
-    # height accuracy, independent of the vehicle
     obs, inf = [], []
     for gt in gts:
         f = links[gt.gt_id]

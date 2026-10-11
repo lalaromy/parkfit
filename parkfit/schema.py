@@ -55,8 +55,8 @@ class MatchGroup(BaseModel):
     """Records from different sources judged to describe the same real-world facility."""
 
     group_id: str
-    members: list[str]  # record keys
-    anchor: str  # the record key used for the canonical position
+    members: list[str]
+    anchor: str
     name: str | None
     lat: float
     lon: float
@@ -111,6 +111,6 @@ class SuitabilityResult(BaseModel):
     feature: FusedFeature
     vehicle: VehicleProfile
     distance_m: float
-    score: float  # probability-like suitability in [0,1]
+    score: float
     verdict: Verdict
     assessments: list[DimensionAssessment]

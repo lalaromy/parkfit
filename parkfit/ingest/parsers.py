@@ -22,7 +22,7 @@ def parse_height_m(raw: str | None) -> float | None:
     if not m:
         return None
     val = float(m.group(1))
-    if val > 10:  # someone wrote centimetres
+    if val > 10:
         val = val / 100
     return round(val, 2)
 

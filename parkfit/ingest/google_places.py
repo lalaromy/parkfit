@@ -18,10 +18,9 @@ def fetch(bbox: BBox = STUDY_AREA, force: bool = False) -> dict | None:
     if not force:
         cached = cache.load("places", name)
         if cached:
-            return cached  # the archived snapshot is usable without a key (offline reproduction)
+            return cached
     if not settings.google_places_api_key:
         return None
-    # Nearby search is radius-based; tile the bbox with 600 m circles (max 20 results each).
     lat_step, lon_step = 0.0075, 0.011
     places: dict[str, dict] = {}
     lat = bbox.south
@@ -45,13 +44,9 @@ def fetch(bbox: BBox = STUDY_AREA, force: bool = False) -> dict | None:
     return cache.load("places", name)
 
 
-# Places' `parking` type covers everything from a garage to a single disabled bay or a
-# bicycle rack.  Only car facilities are comparable with the other sources; the rest are
-# filtered by primary type and by name (Zurich labels them consistently in German).
 KEEP_PRIMARY = {"parking_garage", "parking_lot", "parking"}
 EXCLUDE_NAME = re.compile(r"velo|fahrrad|bike|bicycle|motorrad|motocycle|motorcycle|behinderten|disabled|"
                           r"nicht .ffentlich|dauermieter|car wash|wash", re.IGNORECASE)
-# parking_lot is applied to underground garages too (Park Hyatt, Kongress), so it is not type evidence.
 PRIMARY_TYPE_MAP = {"parking_garage": "underground"}
 
 

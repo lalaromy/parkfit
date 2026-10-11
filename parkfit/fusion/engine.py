@@ -33,7 +33,7 @@ def fuse_group(group: MatchGroup, records: dict[str, SourceRecord], method: Meth
 def fuse_all(groups: list[MatchGroup], records: dict[str, SourceRecord], method: Method = "weighted",
              sources: set[str] | None = None, infer: bool = True) -> list[FusedFeature]:
     feats = [fuse_group(g, records, method, sources) for g in groups]
-    feats = [f for f in feats if f.attributes]  # drop groups whose members were all filtered out
+    feats = [f for f in feats if f.attributes]
     if infer:
         priors = inference.ContextPriors(feats)
         feats = [inference.fill_missing(f, priors) for f in feats]

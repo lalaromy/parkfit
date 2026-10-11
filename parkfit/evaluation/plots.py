@@ -16,7 +16,6 @@ FIG = REPORTS_DIR / "figures"
 def make_all(results: dict, gts, groups, feats) -> None:
     FIG.mkdir(parents=True, exist_ok=True)
     cfgs = [c for c in results["configs"] if c != "all_dempster_shafer"]
-    # 1. F1 per profile per configuration
     fig, ax = plt.subplots(figsize=(9, 4.5))
     w = 0.8 / len(cfgs)
     for i, cfg in enumerate(cfgs):
@@ -27,7 +26,6 @@ def make_all(results: dict, gts, groups, feats) -> None:
     ax.set_ylabel("F1 (fits / does not fit)"); ax.set_ylim(0, 1.05); ax.legend(fontsize=8)
     ax.set_title("Suitability classification by source configuration")
     fig.tight_layout(); fig.savefig(FIG / "f1_by_profile.png", dpi=160); plt.close(fig)
-    # 2. Posted vs fused height
     fig, ax = plt.subplots(figsize=(5.5, 5))
     for gt in gts:
         f = link_by_id(gt, groups, feats)
@@ -43,7 +41,6 @@ def make_all(results: dict, gts, groups, feats) -> None:
     ax.set_xlabel("posted height (ground truth, m)"); ax.set_ylabel("fused height (m)")
     ax.set_title("Fused vs posted height\n(blue = observed, orange = inferred; marker size = confidence)", fontsize=10)
     fig.tight_layout(); fig.savefig(FIG / "height_posted_vs_fused.png", dpi=160); plt.close(fig)
-    # 3. Completeness
     comp = results["completeness"]
     fig, ax = plt.subplots(figsize=(5, 3.5))
     ax.bar(list(comp), [v["share"] for v in comp.values()], color="tab:gray")

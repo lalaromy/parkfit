@@ -7,8 +7,6 @@ from statistics import median
 
 from parkfit.schema import FusedAttribute, FusedFeature, Observation, Provenance
 
-# VSS SN 640 291a (Swiss parking design norm): standard bay width 2.50 m; older stock
-# commonly 2.35 m; underground ramps limited to 15% straight / 12% curved.
 NORM_PRIORS = {
     "bay_width": {"underground": 2.40, "multi-storey": 2.45, "surface": 2.50, "surface_deck": 2.50, "unknown": 2.40},
     "slope_class": {"underground": "moderate", "multi-storey": "moderate", "surface": "flat",
@@ -49,8 +47,6 @@ def fill_missing(feature: FusedFeature, priors: ContextPriors) -> FusedFeature:
     if "maxheight" not in feature.attributes:
         val, note = priors.maxheight(ft)
         if ft == "unknown":
-            # No type evidence: fall back to the study-area median at reduced confidence (0.25), so the
-            # score reflects "probably a garage, limit unknown" rather than a confident fit.
             med, mnote = priors.maxheight("underground")
             feature.attributes["maxheight"] = _inferred("maxheight", med, f"facility type unknown; {mnote}", 0.25)
         elif val is None:

@@ -33,7 +33,6 @@ class GridIndex:
         return idx
 
     def within(self, lat: float, lon: float, radius_m: float) -> list[tuple[int, float]]:
-        # 1 cell ≈ 222 m in latitude; search enough neighbouring cells to cover the radius.
         span = math.ceil(radius_m / (self.cell * 111_000)) + 1
         c0 = self._cell(lat, lon)
         out = []

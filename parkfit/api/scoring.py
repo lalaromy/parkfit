@@ -9,7 +9,6 @@ from parkfit.schema import (
     Verdict,
 )
 
-# Base rates when the attribute is unknown, set from the surveyed garages (see report).
 BASE_RATE_FIT = {"height": 0.80, "width": 0.90}
 HEIGHT_TIGHT_M = 0.05   # less than 5 cm clearance -> 'tight' (roof boxes, antennas, loaded vans)
 WIDTH_MARGIN_OK = 0.40  # bay width - vehicle width: comfortable door opening

@@ -33,8 +33,6 @@ class BBox:
         return f"{self.south},{self.west},{self.north},{self.east}"
 
 
-# Zurich inner city: Kreis 1 plus the adjoining parts of Kreis 4, 5, 6, 7 and 8 in which
-# the field survey was conducted. Chosen so that every surveyed garage is inside the box.
 STUDY_AREA = BBox(south=47.355, west=8.515, north=47.395, east=8.565)
 
 
@@ -48,24 +46,14 @@ class Settings:
         "https://www.ogd.stadt-zuerich.ch/wfs/geoportal/Oeffentlich_zugaengliche_Parkhaeuser"
     )
     pls_feed_url: str = "https://www.pls-zh.ch/plsFeed/rss"
-    # Matching parameters (justified in the report, Section "Feature matching")
     match_buffer_m: float = 120.0
     match_name_threshold: float = 0.55
-    # Fusion parameters
     numeric_tolerance_m: float = 0.051  # values within 5 cm are treated as agreeing
     sources_enabled: list[str] = field(default_factory=lambda: ["osm", "zurich_ogd", "pls", "places"])
 
 
 settings = Settings()
 
-# Per-source, per-attribute confidence priors.  These seed the fusion model and are the
-# "literature-seeded" weights described in the proposal (Section 4.2).  Rationale:
-#  * operator-published values (pls) are authoritative for *their own* facility -> high
-#  * municipal open data (zurich_ogd) is curated but does not publish heights -> high for
-#    capacity/category, not applicable for height
-#  * OSM tag quality lags geometry quality (Girres & Touya 2010; Barron et al. 2014) -> medium,
-#    adjusted by intrinsic signals (version count, recency) in fusion/confidence.py
-#  * Google Places: no physical-dimension fields -> only type/name evidence
 SOURCE_PRIORS: dict[str, dict[str, float]] = {
     "osm": {"maxheight": 0.70, "capacity": 0.65, "facility_type": 0.80, "name": 0.80},
     "zurich_ogd": {"capacity": 0.90, "facility_type": 0.95, "name": 0.95},

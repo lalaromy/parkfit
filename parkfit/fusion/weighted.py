@@ -32,7 +32,7 @@ def fuse(attribute: str, observations: list[Observation],
     if numeric:
         tol = tolerance if tolerance is not None else (settings.numeric_tolerance_m if attribute == "maxheight" else 0)
         if attribute == "capacity":
-            tol = max(5, 0.15 * max(float(o.value) for o in obs))  # capacities are counted differently
+            tol = max(5, 0.15 * max(float(o.value) for o in obs))
         clusters = _clusters([(float(o.value), o) for o in obs], tol)
     else:
         buckets: dict[str, list[Observation]] = {}
