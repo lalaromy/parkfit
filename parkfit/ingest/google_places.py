@@ -1,12 +1,4 @@
-"""Google Places API (New) - optional fourth source.
-
-Places exposes name, type and location for commercial garages but no physical
-dimensions (proposal Section 1.1).  The snapshot persisted in data/raw/places holds, per
-place, the id, location, display name, primary type and type list (the fields in
-FIELD_MASK) and nothing else; Google permits place ids to be stored indefinitely and
-other fields for up to 30 days, so the snapshot is kept for the analysis period only.
-Skipped when no API key is configured and no snapshot exists (risk R1).
-"""
+"""Google Places (New) adapter; filters non-car places; snapshot usable offline without a key."""
 from __future__ import annotations
 
 import re

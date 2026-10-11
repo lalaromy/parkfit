@@ -1,10 +1,4 @@
-"""FastAPI query interface (proposal objective 4).
-
-GET /suitability?lat=&lon=&height=&width=&length=&radius=   -> ranked, explained results
-GET /features/{id}                                           -> fused feature with evidence
-GET /profiles                                                -> the vehicle profiles used in evaluation
-GET /                                                        -> minimal Leaflet demo page
-"""
+"""FastAPI query interface: suitability search, feature lookup, profiles and the demo page."""
 from __future__ import annotations
 
 from pathlib import Path

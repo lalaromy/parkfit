@@ -1,14 +1,4 @@
-"""Simplified Dempster-Shafer combination for one attribute.
-
-Frame of discernment: the set of distinct (tolerance-bucketed) values reported by any
-source.  Each observation is a simple support function: mass `c` on its value and
-`1-c` on the whole frame (ignorance).  Dempster's rule combines them; the conflict mass
-K is reported so that the report can show where the sources disagree strongly.
-
-Shafer (1976).  Known weakness (Zadeh's paradox): under high conflict the rule can
-promote a value nobody supports strongly.  With <= 4 sources and explicit ignorance mass
-this is rarely triggered, but K is surfaced precisely so that such cases are auditable.
-"""
+"""Simplified Dempster-Shafer combination over value buckets, reporting the conflict mass K."""
 from __future__ import annotations
 
 from itertools import product

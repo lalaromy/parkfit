@@ -1,20 +1,4 @@
-"""Evaluation (proposal Section 4.4, objective 6).
-
-Design, after the review of the first draft:
-* Each configuration runs the WHOLE pipeline (matching, fusion, inference) on its own
-  sources only, so a baseline never sees positions or groupings from a source it excludes.
-* A ground-truth facility is joined to a fused feature by verified record identifiers
-  (expected_*_id columns, checked by hand against the survey photographs), never by
-  proximity. A facility none of the configuration's sources contains is 'unmatched' and is
-  scored as not admitted (verdict unknown), which counts as a false negative when the
-  vehicle really fits and a true negative when it does not.
-* Metrics per profile and pooled: confusion counts, precision, recall, F1, accuracy,
-  false-admission rate (FP / (FP + TN)) and balanced accuracy, plus an 'always fits'
-  baseline so the class imbalance is visible.
-* Every misclassification is assigned to a stage: completeness, fusion, inference,
-  granularity.
-Outputs: reports/results.json, reports/results.md, reports/figures/*.png
-"""
+"""Evaluation against the survey: per-configuration pipelines, identifier join, metrics, error taxonomy."""
 from __future__ import annotations
 
 import json
@@ -53,8 +37,7 @@ def run_config(by_source: dict[str, list[SourceRecord]], sources: set[str] | Non
 
 def link_by_id(gt: ground_truth.GroundTruthFeature, groups: list[MatchGroup], feats: list[FusedFeature]
                ) -> FusedFeature | None:
-    """The evaluation join: the fused feature whose match group contains a verified record
-    key for this facility. Several groups (a matcher split) -> the one with most keys."""
+    """Join a surveyed facility to the fused feature whose group holds a verified identifier; None if unmatched."""
     keys = gt.expected_keys()
     by_id = {f.feature_id: f for f in feats}
     best, best_n = None, 0
@@ -75,9 +58,7 @@ def source_completeness(gts, by_source) -> dict:
 
 
 def matching_quality(gts, groups: list[MatchGroup]) -> dict:
-    """For facilities with verified ids in two or more sources: did the matcher put all of
-    them in one group (tp), leave some apart (fn), or group one with a record of another
-    facility (fp)?  Ambiguity-flagged records count as fn (the matcher abstained)."""
+    """Were all verified identifiers of each multi-source facility grouped together, and with nothing foreign?"""
     c = Confusion()
     group_of = {m: g for g in groups for m in g.members}
     gt_of_key = {k: gt.gt_id for gt in gts for k in gt.expected_keys()}

@@ -1,9 +1,4 @@
-"""City of Zurich open data: 'Öffentlich zugängliche Parkhäuser' (WFS, CC0).
-
-Provides an authoritative list of publicly accessible garages with address, category and
-capacity breakdown, but *no physical dimensions* - which is exactly the gap the fusion
-engine has to fill from other sources.
-"""
+"""City of Zurich open-data garage register (WFS, CC0): identities and capacity, no dimensions."""
 from __future__ import annotations
 
 import httpx

@@ -1,9 +1,4 @@
-"""Operator-published facility pages from the Zurich Parkleitsystem (pls-zh.ch, CC0).
-
-The RSS feed lists the garages connected to the guidance system; each garage page is a
-small HTML document that usually states 'Einfahrthöhe X.XXm'.  This is the one structured
-source that publishes a height, so it is treated as operator evidence (high prior).
-"""
+"""Zurich Parkleitsystem operator pages: the one source besides OSM that publishes a height."""
 from __future__ import annotations
 
 import html
@@ -68,9 +63,7 @@ def parse_page(text: str) -> dict:
 
 
 def ingest(force: bool = False, coords_from: dict[str, tuple[float, float]] | None = None) -> list[SourceRecord]:
-    """PLS pages carry no coordinates.  Positions are taken from the Zurich OGD record that
-    links to the same page (`link_pls`), which is an explicit, auditable cross-reference,
-    not a fuzzy match."""
+    """Operator pages carry no coordinates; positions come from the register record that links to them."""
     feed = fetch_feed(force)
     out: list[SourceRecord] = []
     for item in feed["payload"]:

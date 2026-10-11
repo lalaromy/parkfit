@@ -1,13 +1,4 @@
-"""Fused-feature store with two interchangeable backends.
-
-* SqliteStore  - zero setup; radius search by haversine over a bbox pre-filter.
-* PostgisStore - used when DATABASE_URL points at PostGIS (docker compose up -d);
-                 radius search via ST_DWithin on a geography column with a GiST index.
-
-Both store the fused feature as JSON next to its geometry so that the evidence chain is
-served verbatim.  The abstraction exists because the proposal committed to PostGIS while
-the evaluation must be runnable by a marker with nothing but Python installed.
-"""
+"""Fused-feature store with interchangeable SQLite and PostGIS backends."""
 from __future__ import annotations
 
 import json

@@ -1,14 +1,4 @@
-"""Vehicle profile vs fused attributes -> explainable suitability score.
-
-Each dimension gets a probability that the vehicle fits, computed as
-
-    P(fit) = c * 1[fit | fused value] + (1 - c) * p0
-
-where c is the fused confidence and p0 is the base rate of fitting when the value is
-unknown (estimated from the study-area distribution).  This is the simplest model that
-(a) respects confidence, (b) degrades gracefully to a prior when evidence is weak, and
-(c) remains fully explainable: every term is shown in the evidence chain.
-"""
+"""Vehicle profile against fused attributes: per-dimension scores, verdicts and explanation text."""
 from __future__ import annotations
 
 from parkfit.schema import (

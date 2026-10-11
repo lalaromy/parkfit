@@ -1,11 +1,4 @@
-"""Contextual priors for attributes that no source reports (proposal Section 2.4).
-
-The priors are *estimated from the fused data itself* (per facility type, inside the
-study area) rather than hard-coded, following the attribute-completion literature
-(Funke et al. 2015; Jilani et al. 2014): context predicts missing values better than a
-global default.  Where the data are too sparse the Swiss norm values are used as the
-fallback and labelled as such.  Inferred values always carry reduced confidence.
-"""
+"""Context priors for attributes no source reports; every value produced here is labelled inferred."""
 from __future__ import annotations
 
 from collections import defaultdict

@@ -1,11 +1,4 @@
-"""Confidence-weighted voting with tolerance clustering.
-
-For numeric attributes, observations within `tolerance` of each other are pooled into a
-cluster whose weight is the sum of member confidences.  The winning cluster's value is the
-confidence-weighted mean; fused confidence combines (a) the share of total weight held by
-the winner and (b) the noisy-OR of its members' confidences, so that two agreeing sources
-yield more confidence than one, and a lone high-confidence source keeps most of it.
-"""
+"""Confidence-weighted voting with 5 cm tolerance clustering; dissent is kept for the explanation."""
 from __future__ import annotations
 
 from parkfit.config import settings

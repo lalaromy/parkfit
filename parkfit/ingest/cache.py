@@ -1,9 +1,4 @@
-"""Raw-response cache.
-
-Every external call is written to data/raw/<source>/<name>.json so that
-(1) the pipeline is idempotent and resumable, (2) evaluation is reproducible
-offline, and (3) the exact inputs to the reported results are archived.
-"""
+"""Raw-response archive under data/raw/, keyed by source and name, with retrieval timestamps."""
 from __future__ import annotations
 
 import json

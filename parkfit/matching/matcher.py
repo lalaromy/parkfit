@@ -1,17 +1,4 @@
-"""Staged feature matcher (proposal Section 2.2 / 4.1).
-
-Stage 1  spatial buffer   - candidate pairs within `buffer_m` (default 120 m, because
-                            sources place garages at entrances vs. building centroids;
-                            see docs/matching_calibration.md for the pilot that set it)
-Stage 2  name similarity  - token-set ratio on normalised names (rapidfuzz); facility
-                            type disagreement is a soft penalty, not a veto
-Stage 3  ambiguity check  - if the best candidate is not clearly better than the second
-                            best, the group is flagged `ambiguous` and excluded from
-                            evaluation rather than silently guessed (risk R4)
-
-Matching is pairwise against an anchor source and then transitively grouped. Matching
-precision is evaluated independently of fusion in evaluation/run_eval.py.
-"""
+"""Staged feature matcher: spatial buffer, name similarity, one-to-one assignment, ambiguity flag."""
 from __future__ import annotations
 
 import re
@@ -56,14 +43,7 @@ class Candidate:
 
 def pair_score(dist_m: float, name_sim: float, type_agree: bool, buffer_m: float,
                exact_name: bool = False) -> float:
-    """Combine evidence into one comparable score in [0,1].
-
-    Proximity is a linear decay over the buffer; names dominate when present because
-    two different garages are often < 100 m apart in a city centre.  An exact match of
-    the normalised names earns a small bonus so that 'Globus' beats 'Globus Valet
-    Parking' for the OGD record 'Globus' (iteration 2 of the matcher; see
-    docs/matching_calibration.md).
-    """
+    """Combine proximity, name similarity, type agreement and an exact-name bonus into one score in [0, 1]."""
     prox = max(0.0, 1.0 - dist_m / buffer_m)
     s = 0.35 * prox + 0.55 * name_sim + (0.10 if type_agree else 0.0) + (0.05 if exact_name else 0.0)
     return round(min(s, 1.0), 4)
@@ -85,11 +65,7 @@ def match_source_pair(a: list[SourceRecord], b: list[SourceRecord],
                       buffer_m: float = settings.match_buffer_m,
                       threshold: float = settings.match_name_threshold,
                       ambiguity_margin: float = 0.10) -> tuple[dict[str, str], set[str]]:
-    """Match records in `a` to records in `b`. Returns (a_key -> b_key, ambiguous a_keys).
-
-    A pair is accepted when score >= threshold.  One-to-one: a b-record claimed by two
-    a-records goes to the higher score; the loser is marked ambiguous.
-    """
+    """Match records in a to b one-to-one; returns (a_key -> b_key, ambiguous a_keys)."""
     index = GridIndex()
     for r in b:
         index.add(r.lat, r.lon)
@@ -118,12 +94,7 @@ def build_groups(records_by_source: dict[str, list[SourceRecord]],
                  anchor_source: str = "zurich_ogd",
                  buffer_m: float = settings.match_buffer_m,
                  threshold: float = settings.match_name_threshold) -> list[MatchGroup]:
-    """Group records across sources around an anchor source.
-
-    The municipal register is the anchor because it is the most complete list of public
-    garages; sources that do not match any anchor record form singleton groups so that
-    coverage of the long tail is preserved.
-    """
+    """Group records across sources around an anchor source (the register when present)."""
     all_records = {r.key: r for recs in records_by_source.values() for r in recs}
     if anchor_source not in records_by_source:
         # A baseline built without the register anchors on its first available source, so that

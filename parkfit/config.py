@@ -1,8 +1,4 @@
-"""Central configuration.
-
-Everything that varies between runs (study area, paths, API keys, source priors)
-lives here so the pipeline is reproducible from a single place.
-"""
+"""Central configuration: study area, paths, API settings and per-source confidence priors."""
 from __future__ import annotations
 
 import os

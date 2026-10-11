@@ -1,10 +1,4 @@
-"""Vehicle profiles used in the evaluation (proposal: at least four, compact to high-roof van).
-
-Dimensions are manufacturer figures for common Swiss-market models, rounded to the cm.
-The 1.85 m / 1.90 m limits seen in the survey make the 'large SUV' profile the
-discriminating case; the two van profiles bracket the 2.00-2.10 m limits that dominate
-Zurich garages.
-"""
+"""Vehicle profiles used in the evaluation (manufacturer figures, rounded to the cm)."""
 PROFILES = [
     {"name": "compact car (VW Golf)", "height_m": 1.46, "width_m": 1.79, "length_m": 4.28},
     {"name": "mid-size SUV (VW Tiguan)", "height_m": 1.67, "width_m": 1.84, "length_m": 4.54},

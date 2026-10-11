@@ -1,8 +1,4 @@
-"""OpenStreetMap via the Overpass API.
-
-We request `out meta` so that each element carries `timestamp`, `version` and `user`,
-which are the intrinsic quality signals (Barron et al. 2014) used to adjust confidence.
-"""
+"""OpenStreetMap adapter via Overpass (out meta, so version and timestamp reach provenance)."""
 from __future__ import annotations
 
 from datetime import UTC, datetime
@@ -53,11 +49,7 @@ def fetch(bbox: BBox = STUDY_AREA, force: bool = False) -> dict:
 
 
 def to_records(envelope: dict, include_unnamed_surface: bool = False) -> list[SourceRecord]:
-    """Convert Overpass elements to canonical records.
-
-    Surface/lane/street-side parking without a name is dropped by default: it is not
-    comparable to the garage-level ground truth and would swamp the matcher.
-    """
+    """Convert Overpass elements to canonical records; unnamed lane/street-side parking is dropped."""
     retrieved = cache.retrieved_at(envelope)
     out: list[SourceRecord] = []
     for el in envelope["payload"].get("elements", []):

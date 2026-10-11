@@ -1,11 +1,4 @@
-"""Per-observation confidence = source prior x intrinsic adjustments.
-
-Intrinsic signals follow Barron et al. (2014): an OSM tag that has survived several
-edits by different people and was touched recently is more plausible than a one-off
-import that nobody has looked at for a decade.  The adjustments are deliberately small
-(±0.10) so that the literature-seeded priors still dominate; the evaluation reports
-their effect separately.
-"""
+"""Per-observation confidence: source prior adjusted by intrinsic OSM signals (version, recency)."""
 from __future__ import annotations
 
 from datetime import UTC, datetime
