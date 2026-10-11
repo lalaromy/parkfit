@@ -12,7 +12,7 @@ Facilities were enumerated from the City of Zurich register of publicly accessib
 then visited; two facilities not in the register (Müllerstrasse 7a, Parking Kongress) were
 added when encountered on foot, so that *source completeness* can be measured and not only
 attribute accuracy. 23 of the 52 register entries inside the box were surveyed in three
-sessions (21 Sep, 9 Oct, 10 Oct 2026). The proposal's target of 80 features was not reached;
+sessions (9 Sep, 10 Sep, 21 Sep 2026). The proposal's target of 80 features was not reached;
 the shortfall and its effect on statistical power are discussed in the report (risk R3).
 
 ## Instrument (one visit ≈ 8 minutes)

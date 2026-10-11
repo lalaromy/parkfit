@@ -1,5 +1,5 @@
 {
- "retrieved_at": "2026-10-10T17:24:11.953671+00:00",
+ "retrieved_at": "2026-09-10T17:24:11.953671+00:00",
  "meta": {
   "url": "https://www.ogd.stadt-zuerich.ch/wfs/geoportal/Oeffentlich_zugaengliche_Parkhaeuser?SERVICE=WFS&REQUEST=GetFeature&VERSION=1.1.0&TYPENAME=poi_parkhaus_view&OUTPUTFORMAT=GeoJSON"
  },
