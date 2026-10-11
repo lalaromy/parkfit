@@ -1,6 +1,9 @@
 # parkfit — a multi-source data fusion engine for vehicle-specific parking suitability
 
+![ci](https://github.com/lalaromy/parkfit/actions/workflows/ci.yml/badge.svg)
+
 MSc Computer Science final project, University of London. Author: Romy Abbrederis.
+Repository: https://github.com/lalaromy/parkfit
 
 **Question answered:** *"Can my 2.05 m high van park here?"* — for any point in the study
 area (Zurich inner city), by fusing OpenStreetMap, City of Zurich open data and
@@ -22,6 +25,7 @@ evaluating it against a purpose-built field-survey ground truth.
 ## Quick start (hello world in five commands)
 
 ```bash
+git clone https://github.com/lalaromy/parkfit.git
 cd parkfit
 uv venv .venv && uv pip install -e ".[dev]"      # or: python -m venv .venv && .venv/bin/pip install -e ".[dev]"
 .venv/bin/python -m pytest                        # 24 unit/integration tests, no network needed
