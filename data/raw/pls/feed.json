@@ -1,0 +1,186 @@
+{
+ "retrieved_at": "2026-10-10T17:24:12.076160+00:00",
+ "meta": {},
+ "payload": [
+  {
+   "title": "Parkhaus Accu / Otto-Schütz-Weg",
+   "link": "https://www.pls-zh.ch/parkhaus/accu.jsp?pid=accu",
+   "description": "open /  157"
+  },
+  {
+   "title": "Parkhaus Albisriederplatz / Badenerstrasse 380",
+   "link": "https://www.pls-zh.ch/parkhaus/albisriederplatz.jsp?pid=albisriederplatz",
+   "description": "open /    0"
+  },
+  {
+   "title": "Parkhaus Bleicherweg / Beethovenstrasse 35",
+   "link": "https://www.pls-zh.ch/parkhaus/bleicherweg.jsp?pid=bleicherweg",
+   "description": "open /   94"
+  },
+  {
+   "title": "Parkhaus Center Eleven / Sophie-Täuber-Strasse 4",
+   "link": "https://www.pls-zh.ch/parkhaus/center_11.jsp?pid=center_11",
+   "description": "open /  218"
+  },
+  {
+   "title": "Parkhaus City Parking / Gessnerallee 14",
+   "link": "https://www.pls-zh.ch/parkhaus/cp.jsp?pid=cp",
+   "description": "open /  286"
+  },
+  {
+   "title": "Parkhaus Cityport / Affolternstrasse 56",
+   "link": "https://www.pls-zh.ch/parkhaus/cityport.jsp?pid=cityport",
+   "description": "open /  109"
+  },
+  {
+   "title": "Parkhaus Crowne Plaza / Badenerstrasse 420",
+   "link": "https://www.pls-zh.ch/parkhaus/crowne_plaza.jsp?pid=crowne_plaza",
+   "description": "open /    0"
+  },
+  {
+   "title": "Parkhaus Dorflinde / Schwamendingenstrasse 31",
+   "link": "https://www.pls-zh.ch/parkhaus/dorflinde.jsp?pid=dorflinde",
+   "description": "open /   14"
+  },
+  {
+   "title": "Parkhaus Feldegg / Riesbachstrasse 7",
+   "link": "https://www.pls-zh.ch/parkhaus/feldegg.jsp?pid=feldegg",
+   "description": "open /  109"
+  },
+  {
+   "title": "Parkhaus Globus / Löwenstrasse 50",
+   "link": "https://www.pls-zh.ch/parkhaus/globus.jsp?pid=globus",
+   "description": "open /   33"
+  },
+  {
+   "title": "Parkhaus Hardau II / Bullingerstrasse 73",
+   "link": "https://www.pls-zh.ch/parkhaus/hardau.jsp?pid=hardau",
+   "description": "open /    5"
+  },
+  {
+   "title": "Parkhaus Hauptbahnhof / Sihlquai 41",
+   "link": "https://www.pls-zh.ch/parkhaus/hb.jsp?pid=hb",
+   "description": "open /   68"
+  },
+  {
+   "title": "Parkhaus Helvetiaplatz / Molkenstrasse 5/9",
+   "link": "https://www.pls-zh.ch/parkhaus/helvetia.jsp?pid=helvetia",
+   "description": "open /   11"
+  },
+  {
+   "title": "Parkhaus Hohe Promenade / Rämistrasse 22a",
+   "link": "https://www.pls-zh.ch/parkhaus/promenade.jsp?pid=promenade",
+   "description": "open /  273"
+  },
+  {
+   "title": "Parkhaus Jelmoli / Steinmühleplatz 1",
+   "link": "https://www.pls-zh.ch/parkhaus/jelmoli.jsp?pid=jelmoli",
+   "description": "open /   54"
+  },
+  {
+   "title": "Parkhaus Jungholz / Jungholzstrasse 19",
+   "link": "https://www.pls-zh.ch/parkhaus/jungholz.jsp?pid=jungholz",
+   "description": "open /   34"
+  },
+  {
+   "title": "Parkhaus Max-Bill-Platz / Armin-Bollinger-Weg",
+   "link": "https://www.pls-zh.ch/parkhaus/max_bill_platz.jsp?pid=max_bill_platz",
+   "description": "open /   83"
+  },
+  {
+   "title": "Parkhaus Messe Zürich AG / Andreasstrasse 65",
+   "link": "https://www.pls-zh.ch/parkhaus/messe.jsp?pid=messe",
+   "description": "???? / ???"
+  },
+  {
+   "title": "Parkhaus Nordhaus / Siewerdtstrasse 8",
+   "link": "https://www.pls-zh.ch/parkhaus/nordhaus.jsp?pid=nordhaus",
+   "description": "open /   63"
+  },
+  {
+   "title": "Parkhaus Octavo / Brown-Boveri-Strasse 2",
+   "link": "https://www.pls-zh.ch/parkhaus/octavo.jsp?pid=octavo",
+   "description": "open /  104"
+  },
+  {
+   "title": "Parkhaus Opéra / Schillerstrasse 5",
+   "link": "https://www.pls-zh.ch/parkhaus/opera.jsp?pid=opera",
+   "description": "open /   27"
+  },
+  {
+   "title": "Parkhaus P West / Förrlibuckstrasse 151",
+   "link": "https://www.pls-zh.ch/parkhaus/p_west.jsp?pid=p_west",
+   "description": "???? / ???"
+  },
+  {
+   "title": "Parkhaus Park Hyatt / Beethovenstrasse 21",
+   "link": "https://www.pls-zh.ch/parkhaus/park_hyatt.jsp?pid=park_hyatt",
+   "description": "open /  152"
+  },
+  {
+   "title": "Parkhaus Parkside / Sophie-Täuber-Strasse 10",
+   "link": "https://www.pls-zh.ch/parkhaus/parkside.jsp?pid=parkside",
+   "description": "open /   34"
+  },
+  {
+   "title": "Parkhaus Pfingstweid / Pfingstweidstrasse 1",
+   "link": "https://www.pls-zh.ch/parkhaus/pfingstweid.jsp?pid=pfingstweid",
+   "description": "open /  160"
+  },
+  {
+   "title": "Parkhaus Stampfenbach / Niklausstrasse 1",
+   "link": "https://www.pls-zh.ch/parkhaus/stampfenbach.jsp?pid=stampfenbach",
+   "description": "open /   52"
+  },
+  {
+   "title": "Parkhaus Talgarten / Nüschelerstrasse 31",
+   "link": "https://www.pls-zh.ch/parkhaus/talgarten.jsp?pid=talgarten",
+   "description": "open /   32"
+  },
+  {
+   "title": "Parkhaus USZ Nord / Frauenklinikstrasse",
+   "link": "https://www.pls-zh.ch/parkhaus/unispital_nord.jsp?pid=unispital_nord",
+   "description": "open /   70"
+  },
+  {
+   "title": "Parkhaus Uni Irchel / Winterthurerstrasse 181",
+   "link": "https://www.pls-zh.ch/parkhaus/uni_irchel.jsp?pid=uni_irchel",
+   "description": "open /  507"
+  },
+  {
+   "title": "Parkhaus Urania / Uraniastrasse 3",
+   "link": "https://www.pls-zh.ch/parkhaus/urania.jsp?pid=urania",
+   "description": "open /  105"
+  },
+  {
+   "title": "Parkhaus Utoquai / Färberstrasse 6",
+   "link": "https://www.pls-zh.ch/parkhaus/utoquai.jsp?pid=utoquai",
+   "description": "open /   73"
+  },
+  {
+   "title": "Parkhaus Züri 11 Shopping / Nansenstrasse 5/7",
+   "link": "https://www.pls-zh.ch/parkhaus/zueri11.jsp?pid=zueri11",
+   "description": "open /   43"
+  },
+  {
+   "title": "Parkhaus Zürichhorn / Dufourstrasse 142",
+   "link": "https://www.pls-zh.ch/parkhaus/zuerichhorn.jsp?pid=zuerichhorn",
+   "description": "open /   48"
+  },
+  {
+   "title": "Parkplatz Theater 11 / Dörfli-/Thurgauerstrasse",
+   "link": "https://www.pls-zh.ch/parkhaus/theater_11.jsp?pid=theater_11",
+   "description": "open /    0"
+  },
+  {
+   "title": "Parkplatz USZ Süd / Gloriastrasse",
+   "link": "https://www.pls-zh.ch/parkhaus/unispital_sued.jsp?pid=unispital_sued",
+   "description": "open /   53"
+  },
+  {
+   "title": "Puls 5 Parkgarage / Giessereistrasse 18",
+   "link": "https://www.pls-zh.ch/parkhaus/puls5.jsp?pid=puls5",
+   "description": "open /   29"
+  }
+ ]
+}

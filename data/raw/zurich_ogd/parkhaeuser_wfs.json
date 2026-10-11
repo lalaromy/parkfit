@@ -1,0 +1,4233 @@
+{
+ "retrieved_at": "2026-10-10T17:24:11.953671+00:00",
+ "meta": {
+  "url": "https://www.ogd.stadt-zuerich.ch/wfs/geoportal/Oeffentlich_zugaengliche_Parkhaeuser?SERVICE=WFS&REQUEST=GetFeature&VERSION=1.1.0&TYPENAME=poi_parkhaus_view&OUTPUTFORMAT=GeoJSON"
+ },
+ "payload": {
+  "type": "FeatureCollection",
+  "bbox": [
+   8.470488,
+   47.325506,
+   8.596252,
+   47.42294
+  ],
+  "features": [
+   {
+    "geometry": {
+     "coordinates": [
+      8.486451,
+      47.375637
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.1",
+    "properties": {
+     "adresse": "Albisriederstrasse 348",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 74.0,
+     "behindertenparkplatz": 3.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 3.0,
+     "davon_elektro_pp": 2.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000495.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "A-Park",
+     "objectid": 1,
+     "objekt": "A-Park",
+     "poi_id": "ph10000495",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.540591,
+      47.414853
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.2",
+    "properties": {
+     "adresse": "Fritz-Heeb-Weg 5",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 213.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 2.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 60.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/accu.jsp?pid=accu",
+     "name": "Accu",
+     "objectid": 2,
+     "objekt": "Accu",
+     "poi_id": "ph060",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.552979,
+      47.415035
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.3",
+    "properties": {
+     "adresse": "Leutschenbachstrasse 37",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 163.0,
+     "behindertenparkplatz": 4.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 4.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 12.0,
+     "davon_klein_pp": 1.0,
+     "geometrie_gdo": null,
+     "id": 10000450.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Airgate",
+     "objectid": 3,
+     "objekt": "Airgate",
+     "poi_id": "ph10000450",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.485043,
+      47.376036
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.4",
+    "properties": {
+     "adresse": "Bachwiesenstrasse 141",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 26.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000394.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Albisriederdörfli",
+     "objectid": 4,
+     "objekt": "Albisriederdörfli",
+     "poi_id": "ph10000394",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.50812,
+      47.379393
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.5",
+    "properties": {
+     "adresse": "Badenerstrasse 380c",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 65.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 1.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 1.0,
+     "geometrie_gdo": null,
+     "id": 1411.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/albisriederplatz.jsp?pid=albisriederplatz",
+     "name": "Albisriederplatz",
+     "objectid": 5,
+     "objekt": "Albisriederplatz",
+     "poi_id": "ph1411",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.592106,
+      47.405736
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.6",
+    "properties": {
+     "adresse": "Ueberlandstrasse 441",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 58.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000515.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Aldi",
+     "objectid": 6,
+     "objekt": "Aldi",
+     "poi_id": "ph10000515",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.556535,
+      47.419748
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.7",
+    "properties": {
+     "adresse": "Schärenmoosstrasse 77a",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 70.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 3.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 1.0,
+     "geometrie_gdo": null,
+     "id": 10000488.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Aldi Seebach",
+     "objectid": 7,
+     "objekt": "Aldi Seebach",
+     "poi_id": "ph10000488",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.490689,
+      47.385053
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.8",
+    "properties": {
+     "adresse": "Luggwegstrasse 107a",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 44.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000496.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Altstetten-Luggweg",
+     "objectid": 8,
+     "objekt": "Altstetten-Luggweg",
+     "poi_id": "ph10000496",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.497597,
+      47.383777
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.9",
+    "properties": {
+     "adresse": "Badenerstrasse 565b",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 18.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000526.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Atrium 565",
+     "objectid": 9,
+     "objekt": "Atrium 565",
+     "poi_id": "ph10000526",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.546466,
+      47.367742
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.10",
+    "properties": {
+     "adresse": "Stadelhoferstrasse 42",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 20.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000502.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Bellevue-Garage",
+     "objectid": 10,
+     "objekt": "Bellevue-Garage",
+     "poi_id": "ph10000502",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.557597,
+      47.380337
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.11",
+    "properties": {
+     "adresse": "Toblerstrasse 55",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 79.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000521.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Bethanien",
+     "objectid": 11,
+     "objekt": "Bethanien",
+     "poi_id": "ph10000521",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.541803,
+      47.414661
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.12",
+    "properties": {
+     "adresse": "Ruedi-Walter-Strasse 2",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 37.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 3.0,
+     "geometrie_gdo": null,
+     "id": 10000476.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Binzmühlepark",
+     "objectid": 12,
+     "objekt": "Binzmühlepark",
+     "poi_id": "ph10000476",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.535696,
+      47.367372
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.13",
+    "properties": {
+     "adresse": "Beethovenstrasse 35",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 258.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 7.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 49.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/bleicherweg.jsp?pid=bleicherweg",
+     "name": "Bleicherweg",
+     "objectid": 13,
+     "objekt": "Bleicherweg",
+     "poi_id": "ph049",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.479957,
+      47.405327
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.14",
+    "properties": {
+     "adresse": "Limmattalstrasse 400",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 25.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 2.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000451.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Bombach",
+     "objectid": 14,
+     "objekt": "Bombach",
+     "poi_id": "ph10000451",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.519197,
+      47.357948
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.15",
+    "properties": {
+     "adresse": "Wannerstrasse 6",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 269.0,
+     "behindertenparkplatz": 4.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 4.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000407.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Brunaupark",
+     "objectid": 15,
+     "objekt": "Brunaupark",
+     "poi_id": "ph10000407",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.553979,
+      47.374722
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.16",
+    "properties": {
+     "adresse": "Pestalozzistrasse 7",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 50.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000484.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Caréum",
+     "objectid": 16,
+     "objekt": "Caréum",
+     "poi_id": "ph10000484",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.540275,
+      47.412826
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.17",
+    "properties": {
+     "adresse": "Sophie-Taeuber-Strasse 4",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 377.0,
+     "behindertenparkplatz": 9.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 9.0,
+     "davon_elektro_pp": 6.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 3.0,
+     "geometrie_gdo": null,
+     "id": 19.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/center_11.jsp?pid=center_11",
+     "name": "Center Eleven",
+     "objectid": 17,
+     "objekt": "Center Eleven",
+     "poi_id": "ph019",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.53519,
+      47.373983
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.18",
+    "properties": {
+     "adresse": "Löwenstrasse 19",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 21.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 4.0,
+     "geometrie_gdo": null,
+     "id": 10000503.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Centrum Garage",
+     "objectid": 18,
+     "objekt": "Centrum Garage",
+     "poi_id": "ph10000503",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.546571,
+      47.403693
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.19",
+    "properties": {
+     "adresse": "Berninastrasse 45",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 64.0,
+     "behindertenparkplatz": 3.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 3.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000401.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "City Bernina",
+     "objectid": 19,
+     "objekt": "City Bernina",
+     "poi_id": "ph10000401",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.535496,
+      47.37569
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.20",
+    "properties": {
+     "adresse": "Gessnerallee 14",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 607.0,
+     "behindertenparkplatz": 12.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 12.0,
+     "davon_elektro_pp": 4.0,
+     "davon_frauen_pp": 24.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 58.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/cp.jsp?pid=cp",
+     "name": "City Parking",
+     "objectid": 20,
+     "objekt": "City Parking",
+     "poi_id": "ph058",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.514761,
+      47.388602
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.21",
+    "properties": {
+     "adresse": "Pfingstweidstrasse 51",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 65.0,
+     "behindertenparkplatz": 3.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 3.0,
+     "davon_elektro_pp": 2.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000519.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "City West",
+     "objectid": 21,
+     "objekt": "City West",
+     "poi_id": "ph10000519",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.540895,
+      47.410875
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.22",
+    "properties": {
+     "adresse": "Affolternstrasse 56",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 131.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 4.0,
+     "davon_frauen_pp": 6.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 20.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/cityport.jsp?pid=cityport",
+     "name": "Cityport",
+     "objectid": 22,
+     "objekt": "Cityport",
+     "poi_id": "ph020",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.481648,
+      47.406231
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.23",
+    "properties": {
+     "adresse": "Frankentalerstrasse 20b",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 18.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000530.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Coop Frankenthal ",
+     "objectid": 23,
+     "objekt": "Coop Frankenthal ",
+     "poi_id": "ph10000530",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.515526,
+      47.371256
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.24",
+    "properties": {
+     "adresse": "Kalkbreitestrasse 117",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 88.0,
+     "behindertenparkplatz": 3.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 3.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000424.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Coop Goldbrunnenplatz",
+     "objectid": 24,
+     "objekt": "Coop Goldbrunnenplatz",
+     "poi_id": "ph10000424",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.544994,
+      47.410961
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.25",
+    "properties": {
+     "adresse": "Nansenstrasse 16",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 27.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000449.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Coop Krone",
+     "objectid": 25,
+     "objekt": "Coop Krone",
+     "poi_id": "ph10000449",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.514647,
+      47.326276
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.26",
+    "properties": {
+     "adresse": "Leimbachstrasse 215c",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 24.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000494.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Coop Leimbach",
+     "objectid": 26,
+     "objekt": "Coop Leimbach",
+     "poi_id": "ph10000494",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.5167,
+      47.387461
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.27",
+    "properties": {
+     "adresse": "Maschinenstrasse 10",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 18.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000534.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Coop Maschinenstrasse",
+     "objectid": 27,
+     "objekt": "Coop Maschinenstrasse",
+     "poi_id": "ph10000534",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.554734,
+      47.364019
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.28",
+    "properties": {
+     "adresse": "Zollikerstrasse 3",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 33.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000493.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Coop Neumünster",
+     "objectid": 28,
+     "objekt": "Coop Neumünster",
+     "poi_id": "ph10000493",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.529668,
+      47.394166
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.29",
+    "properties": {
+     "adresse": "Scheffelstrasse 14",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 29.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000460.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Coop Nordbrücke",
+     "objectid": 29,
+     "objekt": "Coop Nordbrücke",
+     "poi_id": "ph10000460",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.471711,
+      47.389782
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.30",
+    "properties": {
+     "adresse": "Am Suteracher 14",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 10.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000487.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Coop Suteracher",
+     "objectid": 30,
+     "objekt": "Coop Suteracher",
+     "poi_id": "ph10000487",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.55904,
+      47.353278
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.31",
+    "properties": {
+     "adresse": "Seefeldstrasse 199",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 20.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000466.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Coop Tiefenbrunnen",
+     "objectid": 31,
+     "objekt": "Coop Tiefenbrunnen",
+     "poi_id": "ph10000466",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.594919,
+      47.360491
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.32",
+    "properties": {
+     "adresse": "Loorenstrasse 40",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 16.0,
+     "behindertenparkplatz": 3.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 3.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000490.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Coop Witikon",
+     "objectid": 32,
+     "objekt": "Coop Witikon",
+     "poi_id": "ph10000490",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.530536,
+      47.340042
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.33",
+    "properties": {
+     "adresse": "Alte Kalchbühlstrasse 15",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 45.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000465.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Coop Wollishofen",
+     "objectid": 33,
+     "objekt": "Coop Wollishofen",
+     "poi_id": "ph10000465",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.506867,
+      47.381153
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.34",
+    "properties": {
+     "adresse": "Bienenstrasse 9",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 310.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 20.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 61.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/crowne_plaza.jsp?pid=crowne_plaza",
+     "name": "Crowne Plaza",
+     "objectid": 34,
+     "objekt": "Crowne Plaza",
+     "poi_id": "ph061",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.484048,
+      47.3759
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.35",
+    "properties": {
+     "adresse": "Altstetterstrasse 332",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 18.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000470.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Denner Bockhorn",
+     "objectid": 35,
+     "objekt": "Denner Bockhorn",
+     "poi_id": "ph10000470",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.575689,
+      47.353306
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.36",
+    "properties": {
+     "adresse": "Forchstrasse 340",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 56.0,
+     "behindertenparkplatz": 6.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 6.0,
+     "davon_elektro_pp": 2.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000525.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Der Balgrist",
+     "objectid": 36,
+     "objekt": "Der Balgrist",
+     "poi_id": "ph10000525",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.574273,
+      47.372586
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.37",
+    "properties": {
+     "adresse": "Kurhausstrasse 69",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 237.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 4.0,
+     "davon_frauen_pp": 36.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000497.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Dolder Grand Hotel",
+     "objectid": 37,
+     "objekt": "Dolder Grand Hotel",
+     "poi_id": "ph10000497",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.548751,
+      47.407595
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.38",
+    "properties": {
+     "adresse": "Schwamendingenstrasse 31",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 48.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 43.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/dorflinde.jsp?pid=dorflinde",
+     "name": "Dorflinde",
+     "objectid": 38,
+     "objekt": "Dorflinde",
+     "poi_id": "ph043",
+     "staedtisch": 1
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.548399,
+      47.375922
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.39",
+    "properties": {
+     "adresse": "Rämistrasse 101",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 138.0,
+     "behindertenparkplatz": 3.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 3.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000402.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "ETH Hauptgebäude",
+     "objectid": 39,
+     "objekt": "ETH Hauptgebäude",
+     "poi_id": "ph10000402",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.50603,
+      47.408592
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.40",
+    "properties": {
+     "adresse": "Hönggerbergring 20",
+     "anzahl_mobility_pp": 2.0,
+     "anzahl_oeffentliche_pp": 379.0,
+     "behindertenparkplatz": 5.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 5.0,
+     "davon_elektro_pp": 14.0,
+     "davon_frauen_pp": 20.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000433.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "ETH Hönggerberg",
+     "objectid": 40,
+     "objekt": "ETH Hönggerberg",
+     "poi_id": "ph10000433",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.509056,
+      47.408131
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.41",
+    "properties": {
+     "adresse": "John-von-Neumann-Weg 9",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 449.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 10.0,
+     "davon_frauen_pp": 12.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000434.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "ETH Hönggerberg (HPG)",
+     "objectid": 41,
+     "objekt": "ETH Hönggerberg (HPG)",
+     "poi_id": "ph10000434",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.534104,
+      47.37824
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.42",
+    "properties": {
+     "adresse": "Freischützgasse 30",
+     "anzahl_mobility_pp": 29.0,
+     "anzahl_oeffentliche_pp": 27.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 1.0,
+     "geometrie_gdo": null,
+     "id": 10000507.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Europaallee",
+     "objectid": 42,
+     "objekt": "Europaallee",
+     "poi_id": "ph10000507",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.533319,
+      47.379144
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.43",
+    "properties": {
+     "adresse": "Eisgasse 21",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 25.0,
+     "behindertenparkplatz": 5.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 5.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000531.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Europaallee / Eisgasse (Haus F)",
+     "objectid": 43,
+     "objekt": "Europaallee / Eisgasse (Haus F)",
+     "poi_id": "ph10000531",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.553527,
+      47.360383
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.44",
+    "properties": {
+     "adresse": "Riesbachstrasse 6",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 147.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 2.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/feldegg.jsp?pid=feldegg",
+     "name": "Feldegg",
+     "objectid": 44,
+     "objekt": "Feldegg",
+     "poi_id": "ph010",
+     "staedtisch": 1
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.54757,
+      47.407649
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.45",
+    "properties": {
+     "adresse": "Schwamendingenstrasse 14",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 29.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000448.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Flora",
+     "objectid": 45,
+     "objekt": "Flora",
+     "poi_id": "ph10000448",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.537717,
+      47.376055
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.46",
+    "properties": {
+     "adresse": "Löwenstrasse 50a",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 139.0,
+     "behindertenparkplatz": 6.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 6.0,
+     "davon_elektro_pp": 2.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 25.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/globus.jsp?pid=globus",
+     "name": "Globus",
+     "objectid": 46,
+     "objekt": "Globus",
+     "poi_id": "ph025",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.497082,
+      47.387633
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.47",
+    "properties": {
+     "adresse": "Mürtschenstrasse 22",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 48.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000481.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Greenpark",
+     "objectid": 47,
+     "objekt": "Greenpark",
+     "poi_id": "ph10000481",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.532174,
+      47.399296
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.48",
+    "properties": {
+     "adresse": "Hofwiesenstrasse 141",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 33.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000397.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Guggach",
+     "objectid": 48,
+     "objekt": "Guggach",
+     "poi_id": "ph10000397",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.530221,
+      47.379792
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.49",
+    "properties": {
+     "adresse": "Tellstrasse 48",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 39.0,
+     "behindertenparkplatz": 4.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 4.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000001.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Gull (Europaallee)",
+     "objectid": 49,
+     "objekt": "Gull (Europaallee)",
+     "poi_id": "ph10000001",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.513814,
+      47.326617
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.50",
+    "properties": {
+     "adresse": "Klebestrasse 3",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 18.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000396.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Hallenbad Leimbach",
+     "objectid": 50,
+     "objekt": "Hallenbad Leimbach",
+     "poi_id": "ph10000396",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.509422,
+      47.381678
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.51",
+    "properties": {
+     "adresse": "Norastrasse 38",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 111.0,
+     "behindertenparkplatz": 6.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 6.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 1.0,
+     "geometrie_gdo": null,
+     "id": 5.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/hardau.jsp?pid=hardau",
+     "name": "Hardau II",
+     "objectid": 51,
+     "objekt": "Hardau II",
+     "poi_id": "ph005",
+     "staedtisch": 1
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.503269,
+      47.393215
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.52",
+    "properties": {
+     "adresse": "Hardturmstrasse 417",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 365.0,
+     "behindertenparkplatz": 8.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 8.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000444.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Hardturm",
+     "objectid": 52,
+     "objekt": "Hardturm",
+     "poi_id": "ph10000444",
+     "staedtisch": 1
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.509026,
+      47.391014
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.53",
+    "properties": {
+     "adresse": "Pfingstweidstrasse 104",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 145.0,
+     "behindertenparkplatz": 6.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 6.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000524.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Hardturmpark",
+     "objectid": 53,
+     "objekt": "Hardturmpark",
+     "poi_id": "ph10000524",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.537598,
+      47.381563
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.54",
+    "properties": {
+     "adresse": "Sihlquai 41",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 176.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 3.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 6.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/hb.jsp?pid=hb",
+     "name": "Hauptbahnhof",
+     "objectid": 54,
+     "objekt": "Hauptbahnhof",
+     "poi_id": "ph006",
+     "staedtisch": 1
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.526968,
+      47.37641
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.55",
+    "properties": {
+     "adresse": "Molkenstrasse 9",
+     "anzahl_mobility_pp": 9.0,
+     "anzahl_oeffentliche_pp": 66.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 1.0,
+     "geometrie_gdo": null,
+     "id": 529.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/helvetia.jsp?pid=helvetia",
+     "name": "Helvetiaplatz",
+     "objectid": 55,
+     "objekt": "Helvetiaplatz",
+     "poi_id": "ph529",
+     "staedtisch": 1
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.505971,
+      47.36837
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.56",
+    "properties": {
+     "adresse": "Wasserschöpfi 75",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 107.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 10.0,
+     "geometrie_gdo": null,
+     "id": 10000426.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Heuried Bad und Eisbahn",
+     "objectid": 56,
+     "objekt": "Heuried Bad und Eisbahn",
+     "poi_id": "ph10000426",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.54801,
+      47.3687
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.57",
+    "properties": {
+     "adresse": "Rämistrasse 22a",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 480.0,
+     "behindertenparkplatz": 4.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 4.0,
+     "davon_elektro_pp": 5.0,
+     "davon_frauen_pp": 7.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 22.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/promenade.jsp?pid=promenade",
+     "name": "Hohe Promenade",
+     "objectid": 57,
+     "objekt": "Hohe Promenade",
+     "poi_id": "ph022",
+     "staedtisch": 1
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.567072,
+      47.382604
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.58",
+    "properties": {
+     "adresse": "Orellistrasse 21",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 77.0,
+     "behindertenparkplatz": 3.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 3.0,
+     "davon_elektro_pp": 1.0,
+     "davon_frauen_pp": 15.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000498.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Hotel Zürichberg",
+     "objectid": 58,
+     "objekt": "Hotel Zürichberg",
+     "poi_id": "ph10000498",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.498,
+      47.402996
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.59",
+    "properties": {
+     "adresse": "Regensdorferstrasse 13",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 117.0,
+     "behindertenparkplatz": 3.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 3.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000413.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Höngger Märt",
+     "objectid": 59,
+     "objekt": "Höngger Märt",
+     "poi_id": "ph10000413",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.525994,
+      47.364435
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.60",
+    "properties": {
+     "adresse": "Brandschenkestrasse 132",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 60.0,
+     "behindertenparkplatz": 3.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 3.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000478.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Hürlimann",
+     "objectid": 60,
+     "objekt": "Hürlimann",
+     "poi_id": "ph10000478",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.497998,
+      47.403625
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.61",
+    "properties": {
+     "adresse": "Regensdorferstrasse 16a",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 63.0,
+     "behindertenparkplatz": 3.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 3.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000425.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Im Brühl",
+     "objectid": 61,
+     "objekt": "Im Brühl",
+     "poi_id": "ph10000425",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.55299,
+      47.415081
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.62",
+    "properties": {
+     "adresse": "Leutschenbachstrasse 38b",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 164.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000458.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Imperial-Geschäftshaus",
+     "objectid": 62,
+     "objekt": "Imperial-Geschäftshaus",
+     "poi_id": "ph10000458",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.536501,
+      47.373841
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.63",
+    "properties": {
+     "adresse": "Steinmühleplatz 5",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 227.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 2.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 23.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/jelmoli.jsp?pid=jelmoli",
+     "name": "Jelmoli",
+     "objectid": 63,
+     "objekt": "Jelmoli",
+     "poi_id": "ph023",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.543832,
+      47.412941
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.64",
+    "properties": {
+     "adresse": "Jungholzstrasse 19",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 119.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 21.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/jungholz.jsp?pid=jungholz",
+     "name": "Jungholz",
+     "objectid": 64,
+     "objekt": "Jungholz",
+     "poi_id": "ph021",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.52503,
+      47.390195
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.65",
+    "properties": {
+     "adresse": "Sihlquai 305a",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 124.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 11.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000411.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "KV Zurich Business School",
+     "objectid": 65,
+     "objekt": "KV Zurich Business School",
+     "poi_id": "ph10000411",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.536227,
+      47.407332
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.66",
+    "properties": {
+     "adresse": "Birchstrasse 87",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 107.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000461.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Kantonsschule Oerlikon",
+     "objectid": 66,
+     "objekt": "Kantonsschule Oerlikon",
+     "poi_id": "ph10000461",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.551986,
+      47.37263
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.67",
+    "properties": {
+     "adresse": "Zürichbergstrasse 12",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 97.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000418.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Kantonsschule Rämibühl",
+     "objectid": 67,
+     "objekt": "Kantonsschule Rämibühl",
+     "poi_id": "ph10000418",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.55704,
+      47.371664
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.68",
+    "properties": {
+     "adresse": "Steinwiesstrasse 80",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 50.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000508.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Kinderspital 1",
+     "objectid": 68,
+     "objekt": "Kinderspital 1",
+     "poi_id": "ph10000508",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.576084,
+      47.350588
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.69",
+    "properties": {
+     "adresse": "Enzenbühlstrasse 53",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 119.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000522.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Klinik Hirslanden",
+     "objectid": 69,
+     "objekt": "Klinik Hirslanden",
+     "poi_id": "ph10000522",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.483553,
+      47.388224
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.70",
+    "properties": {
+     "adresse": "Badenerstrasse 705",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 37.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000518.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Krone",
+     "objectid": 70,
+     "objekt": "Krone",
+     "poi_id": "ph10000518",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.49739,
+      47.386371
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.71",
+    "properties": {
+     "adresse": "Baslerstrasse 52",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 1242.0,
+     "behindertenparkplatz": 14.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 14.0,
+     "davon_elektro_pp": 4.0,
+     "davon_frauen_pp": 9.0,
+     "davon_klein_pp": 7.0,
+     "geometrie_gdo": null,
+     "id": 10000412.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Letzipark",
+     "objectid": 71,
+     "objekt": "Letzipark",
+     "poi_id": "ph10000412",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.514869,
+      47.391497
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.72",
+    "properties": {
+     "adresse": "Förrlibuckstrasse 60",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 30.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000535.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Lidl Förrlibuckstrasse",
+     "objectid": 72,
+     "objekt": "Lidl Förrlibuckstrasse",
+     "poi_id": "ph10000535",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.584597,
+      47.407796
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.73",
+    "properties": {
+     "adresse": "Ueberlandstrasse 381",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 28.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000486.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Lidl Schwamendingen",
+     "objectid": 73,
+     "objekt": "Lidl Schwamendingen",
+     "poi_id": "ph10000486",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.499149,
+      47.422483
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.74",
+    "properties": {
+     "adresse": "Wehntalerstrasse 625",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 20.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000533.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Lidl Wehntalerstrasse",
+     "objectid": 74,
+     "objekt": "Lidl Wehntalerstrasse",
+     "poi_id": "ph10000533",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.512958,
+      47.393583
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.75",
+    "properties": {
+     "adresse": "Hardturmstrasse 126b",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 29.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000454.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Limmat West",
+     "objectid": 75,
+     "objekt": "Limmat West",
+     "poi_id": "ph10000454",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.485016,
+      47.38733
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.76",
+    "properties": {
+     "adresse": "Spirgartenstrasse 5",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 21.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000523.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Lindenplatz",
+     "objectid": 76,
+     "objekt": "Lindenplatz",
+     "poi_id": "ph10000523",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.520694,
+      47.365114
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.77",
+    "properties": {
+     "adresse": "Hopfenstrasse 11",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 14.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000514.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Manesseparkhaus",
+     "objectid": 77,
+     "objekt": "Manesseparkhaus",
+     "poi_id": "ph10000514",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.540471,
+      47.382433
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.78",
+    "properties": {
+     "adresse": "Neumühlequai 42",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 73.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 2.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000408.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Marriot I",
+     "objectid": 78,
+     "objekt": "Marriot I",
+     "poi_id": "ph10000408",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.54106,
+      47.382605
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.79",
+    "properties": {
+     "adresse": "Wasserwerkstrasse 8",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 29.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000409.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Marriot II",
+     "objectid": 79,
+     "objekt": "Marriot II",
+     "poi_id": "ph10000409",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.5391,
+      47.414233
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.80",
+    "properties": {
+     "adresse": "Ellen-Widmann-Weg 2",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 98.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 59.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/max_bill_platz.jsp?pid=max_bill_platz",
+     "name": "Max Bill-Platz",
+     "objectid": 80,
+     "objekt": "Max Bill-Platz",
+     "poi_id": "ph059",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.500367,
+      47.401909
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.81",
+    "properties": {
+     "adresse": "Limmattalstrasse 166",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 13.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000427.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Meierhofplatz 1",
+     "objectid": 81,
+     "objekt": "Meierhofplatz 1",
+     "poi_id": "ph10000427",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.553397,
+      47.413894
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.82",
+    "properties": {
+     "adresse": "Hagenholzstrasse 50",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 1839.0,
+     "behindertenparkplatz": 7.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 7.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 24.0,
+     "davon_klein_pp": 24.0,
+     "geometrie_gdo": null,
+     "id": 41.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/messe.jsp?pid=messe",
+     "name": "Messe",
+     "objectid": 82,
+     "objekt": "Messe",
+     "poi_id": "ph041",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.485466,
+      47.374999
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.83",
+    "properties": {
+     "adresse": "Albisriederstrasse 367",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 25.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000462.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Migros Albisrieden",
+     "objectid": 83,
+     "objekt": "Migros Albisrieden",
+     "poi_id": "ph10000462",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.536247,
+      47.375118
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.84",
+    "properties": {
+     "adresse": "Löwenstrasse 33",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 37.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000527.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Migros City",
+     "objectid": 84,
+     "objekt": "Migros City",
+     "poi_id": "ph10000527",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.509033,
+      47.390247
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.85",
+    "properties": {
+     "adresse": "Pfingstweidstrasse 101",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 576.0,
+     "behindertenparkplatz": 12.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 12.0,
+     "davon_elektro_pp": 2.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 7.0,
+     "geometrie_gdo": null,
+     "id": 10000445.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Migros Herdern",
+     "objectid": 85,
+     "objekt": "Migros Herdern",
+     "poi_id": "ph10000445",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.553691,
+      47.36439
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.86",
+    "properties": {
+     "adresse": "Wagnergasse 16",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 25.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000509.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Migros Kreuzplatz",
+     "objectid": 86,
+     "objekt": "Migros Kreuzplatz",
+     "poi_id": "ph10000509",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.530808,
+      47.385618
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.87",
+    "properties": {
+     "adresse": "Gasometerstrasse 47",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 363.0,
+     "behindertenparkplatz": 6.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 6.0,
+     "davon_elektro_pp": 2.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 8.0,
+     "geometrie_gdo": null,
+     "id": 10000429.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Migros Limmatplatz",
+     "objectid": 87,
+     "objekt": "Migros Limmatplatz",
+     "poi_id": "ph10000429",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.548603,
+      47.386361
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.88",
+    "properties": {
+     "adresse": "Frohburgstrasse 1",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 55.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000416.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Migros Rigiplatz",
+     "objectid": 88,
+     "objekt": "Migros Rigiplatz",
+     "poi_id": "ph10000416",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.548414,
+      47.419557
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.89",
+    "properties": {
+     "adresse": "Schaffhauserstrasse 470a",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 69.0,
+     "behindertenparkplatz": 3.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 3.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000471.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Migros Seebach",
+     "objectid": 89,
+     "objekt": "Migros Seebach",
+     "poi_id": "ph10000471",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.508061,
+      47.370224
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.90",
+    "properties": {
+     "adresse": "Burstwiesenstrasse 5",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 105.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000398.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Migros Wiediker Markt",
+     "objectid": 90,
+     "objekt": "Migros Wiediker Markt",
+     "poi_id": "ph10000398",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.530289,
+      47.344652
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.91",
+    "properties": {
+     "adresse": "Etzelstrasse 3",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 35.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000492.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Migros Wollishofen",
+     "objectid": 91,
+     "objekt": "Migros Wollishofen",
+     "poi_id": "ph10000492",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.561787,
+      47.351136
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.92",
+    "properties": {
+     "adresse": "Seefeldstrasse 229a",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 35.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000452.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Mühle Tiefenbrunnen",
+     "objectid": 92,
+     "objekt": "Mühle Tiefenbrunnen",
+     "poi_id": "ph10000452",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.482903,
+      47.41284
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.93",
+    "properties": {
+     "adresse": "Naglerwiesenstrasse 2",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 21.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000469.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Naglerwiesenstrasse",
+     "objectid": 93,
+     "objekt": "Naglerwiesenstrasse",
+     "poi_id": "ph10000469",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.555596,
+      47.412089
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.94",
+    "properties": {
+     "adresse": "Siewerdtstrasse 84",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 103.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000415.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Neudorf",
+     "objectid": 94,
+     "objekt": "Neudorf",
+     "poi_id": "ph10000415",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.487583,
+      47.389385
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.95",
+    "properties": {
+     "adresse": "Baslerstrasse 145",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 247.0,
+     "behindertenparkplatz": 6.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 6.0,
+     "davon_elektro_pp": 4.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 7.0,
+     "geometrie_gdo": null,
+     "id": 10000431.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Neumarkt (Migros Altstetten)",
+     "objectid": 95,
+     "objekt": "Neumarkt (Migros Altstetten)",
+     "poi_id": "ph10000431",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.54374,
+      47.410485
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.96",
+    "properties": {
+     "adresse": "Nansenstrasse 21",
+     "anzahl_mobility_pp": 6.0,
+     "anzahl_oeffentliche_pp": 260.0,
+     "behindertenparkplatz": 6.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 6.0,
+     "davon_elektro_pp": 7.0,
+     "davon_frauen_pp": 12.0,
+     "davon_klein_pp": 3.0,
+     "geometrie_gdo": null,
+     "id": 10000432.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Neumarkt (Zentrum Oerlikon)",
+     "objectid": 96,
+     "objekt": "Neumarkt (Zentrum Oerlikon)",
+     "poi_id": "ph10000432",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.547492,
+      47.412086
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.97",
+    "properties": {
+     "adresse": "Siewerdtstrasse 10",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 184.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 2.0,
+     "geometrie_gdo": null,
+     "id": 45.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/nordhaus.jsp?pid=nordhaus",
+     "name": "Nordhaus",
+     "objectid": 97,
+     "objekt": "Nordhaus",
+     "poi_id": "ph045",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.517307,
+      47.388979
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.98",
+    "properties": {
+     "adresse": "Schiffbaustrasse 11",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 94.0,
+     "behindertenparkplatz": 3.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 3.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000463.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Novotel Zürich-City",
+     "objectid": 98,
+     "objekt": "Novotel Zürich-City",
+     "poi_id": "ph10000463",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.536488,
+      47.413603
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.99",
+    "properties": {
+     "adresse": "Brown-Boveri-Strasse 2",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 113.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 2.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 51.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/octavo.jsp?pid=octavo",
+     "name": "Octavo",
+     "objectid": 99,
+     "objekt": "Octavo",
+     "poi_id": "ph051",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.547099,
+      47.365203
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.100",
+    "properties": {
+     "adresse": "Theaterstrasse 7",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 297.0,
+     "behindertenparkplatz": 6.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 6.0,
+     "davon_elektro_pp": 5.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 1532.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/opera.jsp?pid=opera",
+     "name": "Opéra",
+     "objectid": 100,
+     "objekt": "Opéra",
+     "poi_id": "ph1532",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.510836,
+      47.392039
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.101",
+    "properties": {
+     "adresse": "Förrlibuckstrasse 151",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 1004.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 52.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/p_west.jsp?pid=p_west",
+     "name": "P West",
+     "objectid": 101,
+     "objekt": "P West",
+     "poi_id": "ph052",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.53612,
+      47.36591
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.102",
+    "properties": {
+     "adresse": "Gotthardstrasse 27",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 267.0,
+     "behindertenparkplatz": 7.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 7.0,
+     "davon_elektro_pp": 2.0,
+     "davon_frauen_pp": 10.0,
+     "davon_klein_pp": 1.0,
+     "geometrie_gdo": null,
+     "id": 50.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/park_hyatt.jsp?pid=park_hyatt",
+     "name": "Park Hyatt",
+     "objectid": 102,
+     "objekt": "Park Hyatt",
+     "poi_id": "ph050",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.539127,
+      47.412431
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.103",
+    "properties": {
+     "adresse": "Sophie-Taeuber-Strasse 14",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 37.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 62.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/parkside.jsp?pid=parkside",
+     "name": "Parkside",
+     "objectid": 103,
+     "objekt": "Parkside",
+     "poi_id": "ph062",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.517785,
+      47.387572
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.104",
+    "properties": {
+     "adresse": "Pfingstweidstrasse 9",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 276.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 1.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/pfingstweid.jsp?pid=pfingstweid",
+     "name": "Pfingstweid",
+     "objectid": 104,
+     "objekt": "Pfingstweid",
+     "poi_id": "ph001",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.517234,
+      47.386156
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.105",
+    "properties": {
+     "adresse": "Hardstrasse 201",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 23.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000512.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Prime Tower",
+     "objectid": 105,
+     "objekt": "Prime Tower",
+     "poi_id": "ph10000512",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.517561,
+      47.390902
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.106",
+    "properties": {
+     "adresse": "Technoparkstrasse 10",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 59.0,
+     "behindertenparkplatz": 3.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 3.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 5.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 1533.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/puls5.jsp?pid=puls5",
+     "name": "Puls 5",
+     "objectid": 106,
+     "objekt": "Puls 5",
+     "poi_id": "ph1533",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.552885,
+      47.413559
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.107",
+    "properties": {
+     "adresse": "Marie-Curie-Platz 1",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 60.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000532.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Quadro",
+     "objectid": 107,
+     "objekt": "Quadro",
+     "poi_id": "ph10000532",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.500548,
+      47.382238
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.108",
+    "properties": {
+     "adresse": "Campanellaweg 6a",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 31.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000520.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Rote Buche Bindella, BMW",
+     "objectid": 108,
+     "objekt": "Rote Buche Bindella, BMW",
+     "poi_id": "ph10000520",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.518924,
+      47.389411
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.109",
+    "properties": {
+     "adresse": "Giessereistrasse 7",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 32.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000473.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Schiffbau",
+     "objectid": 109,
+     "objekt": "Schiffbau",
+     "poi_id": "ph10000473",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.573366,
+      47.352102
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.110",
+    "properties": {
+     "adresse": "Lengghalde 2b",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 193.0,
+     "behindertenparkplatz": 6.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 6.0,
+     "davon_elektro_pp": 2.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000483.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Schulthess Klinik",
+     "objectid": 110,
+     "objekt": "Schulthess Klinik",
+     "poi_id": "ph10000483",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.523198,
+      47.356559
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.111",
+    "properties": {
+     "adresse": "Büttenweg 22",
+     "anzahl_mobility_pp": 3.0,
+     "anzahl_oeffentliche_pp": 758.0,
+     "behindertenparkplatz": 16.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 16.0,
+     "davon_elektro_pp": 12.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000479.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Sihlcity",
+     "objectid": 111,
+     "objekt": "Sihlcity",
+     "poi_id": "ph10000479",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.488683,
+      47.387935
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.112",
+    "properties": {
+     "adresse": "Saumackerstrasse 33",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 48.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000399.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Solida Park",
+     "objectid": 112,
+     "objekt": "Solida Park",
+     "poi_id": "ph10000399",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.499489,
+      47.422694
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.113",
+    "properties": {
+     "adresse": "Wehntalerstrasse 628",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 14.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000489.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Spar Affoltern",
+     "objectid": 113,
+     "objekt": "Spar Affoltern",
+     "poi_id": "ph10000489",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.503663,
+      47.383911
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.114",
+    "properties": {
+     "adresse": "Baslerstrasse 15",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 108.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000485.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Stadion Letzigrund",
+     "objectid": 114,
+     "objekt": "Stadion Letzigrund",
+     "poi_id": "ph10000485",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.539427,
+      47.386645
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.115",
+    "properties": {
+     "adresse": "Niklausstrasse 17",
+     "anzahl_mobility_pp": 1.0,
+     "anzahl_oeffentliche_pp": 215.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 5.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 33.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/stampfenbach.jsp?pid=stampfenbach",
+     "name": "Stampfenbach",
+     "objectid": 115,
+     "objekt": "Stampfenbach",
+     "poi_id": "ph033",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.530422,
+      47.372945
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.116",
+    "properties": {
+     "adresse": "Werdstrasse 6",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 57.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 4.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000421.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Stauffachertor",
+     "objectid": 116,
+     "objekt": "Stauffachertor",
+     "poi_id": "ph10000421",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.535016,
+      47.365988
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.117",
+    "properties": {
+     "adresse": "Tödistrasse 26",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 45.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000506.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Stockerhof",
+     "objectid": 117,
+     "objekt": "Stockerhof",
+     "poi_id": "ph10000506",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.536012,
+      47.372146
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.118",
+    "properties": {
+     "adresse": "Nüschelerstrasse 30",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 110.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 2.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 42.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/talgarten.jsp?pid=talgarten",
+     "name": "Talgarten",
+     "objectid": 118,
+     "objekt": "Talgarten",
+     "poi_id": "ph042",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.515865,
+      47.38942
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.119",
+    "properties": {
+     "adresse": "Technoparkstrasse 2",
+     "anzahl_mobility_pp": 2.0,
+     "anzahl_oeffentliche_pp": 61.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000467.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Technopark Zürich",
+     "objectid": 119,
+     "objekt": "Technopark Zürich",
+     "poi_id": "ph10000467",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.513291,
+      47.363411
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.120",
+    "properties": {
+     "adresse": "Räffelstrasse 24",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 95.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000517.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Tic Tric Trac",
+     "objectid": 120,
+     "objekt": "Tic Tric Trac",
+     "poi_id": "ph10000517",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.570427,
+      47.377384
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.121",
+    "properties": {
+     "adresse": "Tobelhofstrasse 23",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 22.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000321.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Tobelhofstrasse",
+     "objectid": 121,
+     "objekt": "Tobelhofstrasse",
+     "poi_id": "ph10000321",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.512751,
+      47.391889
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.122",
+    "properties": {
+     "adresse": "Förrlibuckstrasse 113",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 92.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000516.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Toni-Areal",
+     "objectid": 122,
+     "objekt": "Toni-Areal",
+     "poi_id": "ph10000516",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.549771,
+      47.378908
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.123",
+    "properties": {
+     "adresse": "Frauenklinikstrasse 10",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 104.0,
+     "behindertenparkplatz": 4.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 4.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 1412.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/unispital_nord.jsp?pid=unispital_nord",
+     "name": "Unispital Nord",
+     "objectid": 123,
+     "objekt": "Unispital Nord",
+     "poi_id": "ph1412",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.546502,
+      47.398158
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.124",
+    "properties": {
+     "adresse": "Winterthurerstrasse 181",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 755.0,
+     "behindertenparkplatz": 9.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 9.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 18.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/uni_irchel.jsp?pid=uni_irchel",
+     "name": "Universität Irchel",
+     "objectid": 124,
+     "objekt": "Universität Irchel",
+     "poi_id": "ph018",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.540752,
+      47.374372
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.125",
+    "properties": {
+     "adresse": "Uraniastrasse 3",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 480.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 3.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 1.0,
+     "geometrie_gdo": null,
+     "id": 24.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/urania.jsp?pid=urania",
+     "name": "Urania",
+     "objectid": 125,
+     "objekt": "Urania",
+     "poi_id": "ph024",
+     "staedtisch": 1
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.548526,
+      47.361735
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.126",
+    "properties": {
+     "adresse": "Färberstrasse 6",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 153.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 4.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 48.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/utoquai.jsp?pid=utoquai",
+     "name": "Utoquai",
+     "objectid": 126,
+     "objekt": "Utoquai",
+     "poi_id": "ph048",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.558781,
+      47.376203
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.127",
+    "properties": {
+     "adresse": "Vorderberg 3",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 20.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000417.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Vorderberg",
+     "objectid": 127,
+     "objekt": "Vorderberg",
+     "poi_id": "ph10000417",
+     "staedtisch": 1
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.562243,
+      47.411309
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.128",
+    "properties": {
+     "adresse": "Wallisellenstrasse 335",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 42.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000457.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Wallisellenstrasse",
+     "objectid": 128,
+     "objekt": "Wallisellenstrasse",
+     "poi_id": "ph10000457",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.515478,
+      47.390569
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.129",
+    "properties": {
+     "adresse": "Pfingstweidstrasse 60b",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 38.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000468.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "West-Park",
+     "objectid": 129,
+     "objekt": "West-Park",
+     "poi_id": "ph10000468",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.558284,
+      47.417646
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.130",
+    "properties": {
+     "adresse": "Leutschenbachstrasse 77",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 227.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000459.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "World Trade Center",
+     "objectid": 130,
+     "objekt": "World Trade Center",
+     "poi_id": "ph10000459",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.505949,
+      47.418687
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.131",
+    "properties": {
+     "adresse": "Schauenbergstrasse 6a",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 41.0,
+     "behindertenparkplatz": 0.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 0.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000447.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Zehntenhaus",
+     "objectid": 131,
+     "objekt": "Zehntenhaus",
+     "poi_id": "ph10000447",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.507767,
+      47.420834
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.132",
+    "properties": {
+     "adresse": "Riedenhaldenstrasse 289",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 270.0,
+     "behindertenparkplatz": 6.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 6.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 4.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000414.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Zentrum Affoltern",
+     "objectid": 132,
+     "objekt": "Zentrum Affoltern",
+     "poi_id": "ph10000414",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.519678,
+      47.37095
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.133",
+    "properties": {
+     "adresse": "Zweierstrasse 136",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 14.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000428.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Zentrum Schmiede",
+     "objectid": 133,
+     "objekt": "Zentrum Schmiede",
+     "poi_id": "ph10000428",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.586093,
+      47.359443
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.134",
+    "properties": {
+     "adresse": "Buchzelgstrasse 20a",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 180.0,
+     "behindertenparkplatz": 9.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 9.0,
+     "davon_elektro_pp": 6.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 10000511.0,
+     "kategorie": "Parkhaus",
+     "link_pls": null,
+     "name": "Zentrum Witikon",
+     "objectid": 134,
+     "objekt": "Zentrum Witikon",
+     "poi_id": "ph10000511",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.545114,
+      47.410812
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.135",
+    "properties": {
+     "adresse": "Nansenstrasse 7",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 60.0,
+     "behindertenparkplatz": 1.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 1.0,
+     "davon_elektro_pp": 2.0,
+     "davon_frauen_pp": 0.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 53.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/zueri11.jsp?pid=zueri11",
+     "name": "Züri 11",
+     "objectid": 135,
+     "objekt": "Züri 11",
+     "poi_id": "ph053",
+     "staedtisch": 0
+    },
+    "type": "Feature"
+   },
+   {
+    "geometry": {
+     "coordinates": [
+      8.553073,
+      47.355402
+     ],
+     "type": "Point"
+    },
+    "id": "poi_parkhaus_view.136",
+    "properties": {
+     "adresse": "Baurstrasse 7",
+     "anzahl_mobility_pp": 0.0,
+     "anzahl_oeffentliche_pp": 195.0,
+     "behindertenparkplatz": 2.0,
+     "datum": "09.10.2026 21:17",
+     "davon_behinderten_pp": 2.0,
+     "davon_elektro_pp": 0.0,
+     "davon_frauen_pp": 8.0,
+     "davon_klein_pp": 0.0,
+     "geometrie_gdo": null,
+     "id": 11.0,
+     "kategorie": "Parkhaus",
+     "link_pls": "https://www.pls-zh.ch/parkhaus/zuerichhorn.jsp?pid=zuerichhorn",
+     "name": "Zürichhorn",
+     "objectid": 136,
+     "objekt": "Zürichhorn",
+     "poi_id": "ph011",
+     "staedtisch": 1
+    },
+    "type": "Feature"
+   }
+  ]
+ }
+}

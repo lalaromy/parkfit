@@ -1,0 +1,2454 @@
+{
+ "n_ground_truth": 23,
+ "label_balance": {
+  "compact car (VW Golf)": {
+   "fits": 23,
+   "of": 23
+  },
+  "mid-size SUV (VW Tiguan)": {
+   "fits": 23,
+   "of": 23
+  },
+  "large SUV (Range Rover)": {
+   "fits": 20,
+   "of": 23
+  },
+  "standard-roof van (VW T6.1)": {
+   "fits": 21,
+   "of": 23
+  },
+  "high-roof van (Sprinter H2)": {
+   "fits": 2,
+   "of": 23
+  }
+ },
+ "completeness": {
+  "osm": {
+   "present": 16,
+   "of": 23,
+   "share": 0.696
+  },
+  "zurich_ogd": {
+   "present": 21,
+   "of": 23,
+   "share": 0.913
+  },
+  "pls": {
+   "present": 14,
+   "of": 23,
+   "share": 0.609
+  },
+  "places": {
+   "present": 20,
+   "of": 23,
+   "share": 0.87
+  }
+ },
+ "configs": {
+  "osm_only": {
+   "per_profile": {
+    "compact car (VW Golf)": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 7,
+     "tn": 0,
+     "n": 23,
+     "positives": 23,
+     "negatives": 0,
+     "precision": 1.0,
+     "recall": 0.696,
+     "f1": 0.821,
+     "accuracy": 0.696,
+     "false_admission_rate": null,
+     "balanced_accuracy": null
+    },
+    "mid-size SUV (VW Tiguan)": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 7,
+     "tn": 0,
+     "n": 23,
+     "positives": 23,
+     "negatives": 0,
+     "precision": 1.0,
+     "recall": 0.696,
+     "f1": 0.821,
+     "accuracy": 0.696,
+     "false_admission_rate": null,
+     "balanced_accuracy": null
+    },
+    "large SUV (Range Rover)": {
+     "tp": 14,
+     "fp": 2,
+     "fn": 6,
+     "tn": 1,
+     "n": 23,
+     "positives": 20,
+     "negatives": 3,
+     "precision": 0.875,
+     "recall": 0.7,
+     "f1": 0.778,
+     "accuracy": 0.652,
+     "false_admission_rate": 0.667,
+     "balanced_accuracy": 0.517
+    },
+    "standard-roof van (VW T6.1)": {
+     "tp": 15,
+     "fp": 0,
+     "fn": 6,
+     "tn": 2,
+     "n": 23,
+     "positives": 21,
+     "negatives": 2,
+     "precision": 1.0,
+     "recall": 0.714,
+     "f1": 0.833,
+     "accuracy": 0.739,
+     "false_admission_rate": 0.0,
+     "balanced_accuracy": 0.857
+    },
+    "high-roof van (Sprinter H2)": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 1,
+     "tn": 21,
+     "n": 23,
+     "positives": 2,
+     "negatives": 21,
+     "precision": 1.0,
+     "recall": 0.5,
+     "f1": 0.667,
+     "accuracy": 0.957,
+     "false_admission_rate": 0.0,
+     "balanced_accuracy": 0.75
+    }
+   },
+   "pooled": {
+    "tp": 62,
+    "fp": 2,
+    "fn": 27,
+    "tn": 24,
+    "n": 115,
+    "positives": 89,
+    "negatives": 26,
+    "precision": 0.969,
+    "recall": 0.697,
+    "f1": 0.81,
+    "accuracy": 0.748,
+    "false_admission_rate": 0.077,
+    "balanced_accuracy": 0.81
+   },
+   "errors": [
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT03",
+     "name": "Parkhaus Europaallee Haus F (Eisgasse)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT11",
+     "name": "Parkhaus Migros Limmatplatz",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT13",
+     "name": "Parkhaus Migros Kreuzplatz",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT17",
+     "name": "Parkhaus Kantonsschule Rämibühl",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT19",
+     "name": "Parkhaus Unispital Nord (USZ Nord)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT03",
+     "name": "Parkhaus Europaallee Haus F (Eisgasse)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT11",
+     "name": "Parkhaus Migros Limmatplatz",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT13",
+     "name": "Parkhaus Migros Kreuzplatz",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT17",
+     "name": "Parkhaus Kantonsschule Rämibühl",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT19",
+     "name": "Parkhaus Unispital Nord (USZ Nord)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT02",
+     "name": "Parking Bleicherweg",
+     "stage": "inference",
+     "detail": "fused height 2.1 (inferred, conf 0.35) vs posted 2.0; bay 2.17 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT03",
+     "name": "Parkhaus Europaallee Haus F (Eisgasse)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT09",
+     "name": "Parkhaus Jelmoli",
+     "stage": "fusion",
+     "detail": "fused height 2.0 (observed, conf 0.8) vs posted 2.0; bay 2.18 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT13",
+     "name": "Parkhaus Migros Kreuzplatz",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT17",
+     "name": "Parkhaus Kantonsschule Rämibühl",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT19",
+     "name": "Parkhaus Unispital Nord (USZ Nord)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT03",
+     "name": "Parkhaus Europaallee Haus F (Eisgasse)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT13",
+     "name": "Parkhaus Migros Kreuzplatz",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT17",
+     "name": "Parkhaus Kantonsschule Rämibühl",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT19",
+     "name": "Parkhaus Unispital Nord (USZ Nord)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "high-roof van (Sprinter H2)",
+     "gt": "GT18",
+     "name": "Parking Talgarten",
+     "stage": "granularity",
+     "detail": "fused height 2.1 (observed, conf 0.8) vs posted 3.4; bay 2.35 m; verdict does_not_fit"
+    }
+   ],
+   "unmatched": [
+    "GT03",
+    "GT10",
+    "GT11",
+    "GT13",
+    "GT14",
+    "GT17",
+    "GT19"
+   ],
+   "n_features": 69,
+   "ambiguous": 0,
+   "error_stages": {
+    "completeness": 26,
+    "inference": 1,
+    "fusion": 1,
+    "granularity": 1
+   },
+   "height": {
+    "n_observed": 10,
+    "mae_observed": 0.135,
+    "within_5cm_observed": 0.9,
+    "n_inferred": 5,
+    "mae_inferred": 0.1
+   },
+   "matching": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "n": 0,
+    "positives": 0,
+    "negatives": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "accuracy": 0.0,
+    "false_admission_rate": null,
+    "balanced_accuracy": null,
+    "items": []
+   }
+  },
+  "ogd_only": {
+   "per_profile": {
+    "compact car (VW Golf)": {
+     "tp": 21,
+     "fp": 0,
+     "fn": 2,
+     "tn": 0,
+     "n": 23,
+     "positives": 23,
+     "negatives": 0,
+     "precision": 1.0,
+     "recall": 0.913,
+     "f1": 0.955,
+     "accuracy": 0.913,
+     "false_admission_rate": null,
+     "balanced_accuracy": null
+    },
+    "mid-size SUV (VW Tiguan)": {
+     "tp": 21,
+     "fp": 0,
+     "fn": 2,
+     "tn": 0,
+     "n": 23,
+     "positives": 23,
+     "negatives": 0,
+     "precision": 1.0,
+     "recall": 0.913,
+     "f1": 0.955,
+     "accuracy": 0.913,
+     "false_admission_rate": null,
+     "balanced_accuracy": null
+    },
+    "large SUV (Range Rover)": {
+     "tp": 18,
+     "fp": 3,
+     "fn": 2,
+     "tn": 0,
+     "n": 23,
+     "positives": 20,
+     "negatives": 3,
+     "precision": 0.857,
+     "recall": 0.9,
+     "f1": 0.878,
+     "accuracy": 0.783,
+     "false_admission_rate": 1.0,
+     "balanced_accuracy": 0.45
+    },
+    "standard-roof van (VW T6.1)": {
+     "tp": 19,
+     "fp": 2,
+     "fn": 2,
+     "tn": 0,
+     "n": 23,
+     "positives": 21,
+     "negatives": 2,
+     "precision": 0.905,
+     "recall": 0.905,
+     "f1": 0.905,
+     "accuracy": 0.826,
+     "false_admission_rate": 1.0,
+     "balanced_accuracy": 0.452
+    },
+    "high-roof van (Sprinter H2)": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 2,
+     "tn": 21,
+     "n": 23,
+     "positives": 2,
+     "negatives": 21,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "accuracy": 0.913,
+     "false_admission_rate": 0.0,
+     "balanced_accuracy": 0.5
+    }
+   },
+   "pooled": {
+    "tp": 79,
+    "fp": 5,
+    "fn": 10,
+    "tn": 21,
+    "n": 115,
+    "positives": 89,
+    "negatives": 26,
+    "precision": 0.94,
+    "recall": 0.888,
+    "f1": 0.913,
+    "accuracy": 0.87,
+    "false_admission_rate": 0.192,
+    "balanced_accuracy": 0.848
+   },
+   "errors": [
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT02",
+     "name": "Parking Bleicherweg",
+     "stage": "inference",
+     "detail": "fused height 2.0 (inferred, conf 0.35) vs posted 2.0; bay 2.17 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT09",
+     "name": "Parkhaus Jelmoli",
+     "stage": "inference",
+     "detail": "fused height 2.0 (inferred, conf 0.35) vs posted 2.0; bay 2.18 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT11",
+     "name": "Parkhaus Migros Limmatplatz",
+     "stage": "inference",
+     "detail": "fused height 2.0 (inferred, conf 0.35) vs posted 1.85; bay 2.41 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT05",
+     "name": "Parkhaus Globus",
+     "stage": "inference",
+     "detail": "fused height 2.0 (inferred, conf 0.35) vs posted 1.9; bay 2.58 m; verdict tight"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT11",
+     "name": "Parkhaus Migros Limmatplatz",
+     "stage": "inference",
+     "detail": "fused height 2.0 (inferred, conf 0.35) vs posted 1.85; bay 2.41 m; verdict tight"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "high-roof van (Sprinter H2)",
+     "gt": "GT18",
+     "name": "Parking Talgarten",
+     "stage": "granularity",
+     "detail": "fused height 2.0 (inferred, conf 0.35) vs posted 3.4; bay 2.35 m; verdict does_not_fit"
+    },
+    {
+     "profile": "high-roof van (Sprinter H2)",
+     "gt": "GT22",
+     "name": "Parkhaus Vorderberg",
+     "stage": "inference",
+     "detail": "fused height 2.0 (inferred, conf 0.35) vs posted None; bay 2.42 m; verdict does_not_fit"
+    }
+   ],
+   "unmatched": [
+    "GT10",
+    "GT14"
+   ],
+   "n_features": 52,
+   "ambiguous": 0,
+   "error_stages": {
+    "completeness": 8,
+    "inference": 6,
+    "granularity": 1
+   },
+   "height": {
+    "n_observed": 0,
+    "mae_observed": null,
+    "within_5cm_observed": null,
+    "n_inferred": 20,
+    "mae_inferred": 0.155
+   },
+   "matching": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "n": 0,
+    "positives": 0,
+    "negatives": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "accuracy": 0.0,
+    "false_admission_rate": null,
+    "balanced_accuracy": null,
+    "items": []
+   }
+  },
+  "places_only": {
+   "per_profile": {
+    "compact car (VW Golf)": {
+     "tp": 20,
+     "fp": 0,
+     "fn": 3,
+     "tn": 0,
+     "n": 23,
+     "positives": 23,
+     "negatives": 0,
+     "precision": 1.0,
+     "recall": 0.87,
+     "f1": 0.93,
+     "accuracy": 0.87,
+     "false_admission_rate": null,
+     "balanced_accuracy": null
+    },
+    "mid-size SUV (VW Tiguan)": {
+     "tp": 20,
+     "fp": 0,
+     "fn": 3,
+     "tn": 0,
+     "n": 23,
+     "positives": 23,
+     "negatives": 0,
+     "precision": 1.0,
+     "recall": 0.87,
+     "f1": 0.93,
+     "accuracy": 0.87,
+     "false_admission_rate": null,
+     "balanced_accuracy": null
+    },
+    "large SUV (Range Rover)": {
+     "tp": 18,
+     "fp": 2,
+     "fn": 2,
+     "tn": 1,
+     "n": 23,
+     "positives": 20,
+     "negatives": 3,
+     "precision": 0.9,
+     "recall": 0.9,
+     "f1": 0.9,
+     "accuracy": 0.826,
+     "false_admission_rate": 0.667,
+     "balanced_accuracy": 0.617
+    },
+    "standard-roof van (VW T6.1)": {
+     "tp": 19,
+     "fp": 1,
+     "fn": 2,
+     "tn": 1,
+     "n": 23,
+     "positives": 21,
+     "negatives": 2,
+     "precision": 0.95,
+     "recall": 0.905,
+     "f1": 0.927,
+     "accuracy": 0.87,
+     "false_admission_rate": 0.5,
+     "balanced_accuracy": 0.702
+    },
+    "high-roof van (Sprinter H2)": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 2,
+     "tn": 21,
+     "n": 23,
+     "positives": 2,
+     "negatives": 21,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "accuracy": 0.913,
+     "false_admission_rate": 0.0,
+     "balanced_accuracy": 0.5
+    }
+   },
+   "pooled": {
+    "tp": 77,
+    "fp": 3,
+    "fn": 12,
+    "tn": 23,
+    "n": 115,
+    "positives": 89,
+    "negatives": 26,
+    "precision": 0.963,
+    "recall": 0.865,
+    "f1": 0.911,
+    "accuracy": 0.87,
+    "false_admission_rate": 0.115,
+    "balanced_accuracy": 0.875
+   },
+   "errors": [
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT11",
+     "name": "Parkhaus Migros Limmatplatz",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT11",
+     "name": "Parkhaus Migros Limmatplatz",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT02",
+     "name": "Parking Bleicherweg",
+     "stage": "inference",
+     "detail": "fused height 2.0 (inferred, conf 0.35) vs posted 2.0; bay 2.17 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT09",
+     "name": "Parkhaus Jelmoli",
+     "stage": "inference",
+     "detail": "fused height 2.0 (inferred, conf 0.35) vs posted 2.0; bay 2.18 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT05",
+     "name": "Parkhaus Globus",
+     "stage": "inference",
+     "detail": "fused height 2.0 (inferred, conf 0.35) vs posted 1.9; bay 2.58 m; verdict tight"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "high-roof van (Sprinter H2)",
+     "gt": "GT18",
+     "name": "Parking Talgarten",
+     "stage": "granularity",
+     "detail": "fused height 2.0 (inferred, conf 0.35) vs posted 3.4; bay 2.35 m; verdict does_not_fit"
+    },
+    {
+     "profile": "high-roof van (Sprinter H2)",
+     "gt": "GT22",
+     "name": "Parkhaus Vorderberg",
+     "stage": "inference",
+     "detail": "fused height 2.0 (inferred, conf 0.35) vs posted None; bay 2.42 m; verdict does_not_fit"
+    }
+   ],
+   "unmatched": [
+    "GT10",
+    "GT11",
+    "GT14"
+   ],
+   "n_features": 133,
+   "ambiguous": 0,
+   "error_stages": {
+    "completeness": 10,
+    "inference": 4,
+    "granularity": 1
+   },
+   "height": {
+    "n_observed": 0,
+    "mae_observed": null,
+    "within_5cm_observed": null,
+    "n_inferred": 19,
+    "mae_inferred": 0.155
+   },
+   "matching": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "n": 0,
+    "positives": 0,
+    "negatives": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "accuracy": 0.0,
+    "false_admission_rate": null,
+    "balanced_accuracy": null,
+    "items": []
+   }
+  },
+  "osm+ogd": {
+   "per_profile": {
+    "compact car (VW Golf)": {
+     "tp": 21,
+     "fp": 0,
+     "fn": 2,
+     "tn": 0,
+     "n": 23,
+     "positives": 23,
+     "negatives": 0,
+     "precision": 1.0,
+     "recall": 0.913,
+     "f1": 0.955,
+     "accuracy": 0.913,
+     "false_admission_rate": null,
+     "balanced_accuracy": null
+    },
+    "mid-size SUV (VW Tiguan)": {
+     "tp": 21,
+     "fp": 0,
+     "fn": 2,
+     "tn": 0,
+     "n": 23,
+     "positives": 23,
+     "negatives": 0,
+     "precision": 1.0,
+     "recall": 0.913,
+     "f1": 0.955,
+     "accuracy": 0.913,
+     "false_admission_rate": null,
+     "balanced_accuracy": null
+    },
+    "large SUV (Range Rover)": {
+     "tp": 18,
+     "fp": 3,
+     "fn": 2,
+     "tn": 0,
+     "n": 23,
+     "positives": 20,
+     "negatives": 3,
+     "precision": 0.857,
+     "recall": 0.9,
+     "f1": 0.878,
+     "accuracy": 0.783,
+     "false_admission_rate": 1.0,
+     "balanced_accuracy": 0.45
+    },
+    "standard-roof van (VW T6.1)": {
+     "tp": 19,
+     "fp": 1,
+     "fn": 2,
+     "tn": 1,
+     "n": 23,
+     "positives": 21,
+     "negatives": 2,
+     "precision": 0.95,
+     "recall": 0.905,
+     "f1": 0.927,
+     "accuracy": 0.87,
+     "false_admission_rate": 0.5,
+     "balanced_accuracy": 0.702
+    },
+    "high-roof van (Sprinter H2)": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 1,
+     "tn": 21,
+     "n": 23,
+     "positives": 2,
+     "negatives": 21,
+     "precision": 1.0,
+     "recall": 0.5,
+     "f1": 0.667,
+     "accuracy": 0.957,
+     "false_admission_rate": 0.0,
+     "balanced_accuracy": 0.75
+    }
+   },
+   "pooled": {
+    "tp": 80,
+    "fp": 4,
+    "fn": 9,
+    "tn": 22,
+    "n": 115,
+    "positives": 89,
+    "negatives": 26,
+    "precision": 0.952,
+    "recall": 0.899,
+    "f1": 0.925,
+    "accuracy": 0.887,
+    "false_admission_rate": 0.154,
+    "balanced_accuracy": 0.873
+   },
+   "errors": [
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT02",
+     "name": "Parking Bleicherweg",
+     "stage": "inference",
+     "detail": "fused height 2.1 (inferred, conf 0.35) vs posted 2.0; bay 2.17 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT09",
+     "name": "Parkhaus Jelmoli",
+     "stage": "fusion",
+     "detail": "fused height 2.0 (observed, conf 0.8) vs posted 2.0; bay 2.18 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT11",
+     "name": "Parkhaus Migros Limmatplatz",
+     "stage": "inference",
+     "detail": "fused height 2.1 (inferred, conf 0.35) vs posted 1.85; bay 2.41 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT11",
+     "name": "Parkhaus Migros Limmatplatz",
+     "stage": "inference",
+     "detail": "fused height 2.1 (inferred, conf 0.35) vs posted 1.85; bay 2.41 m; verdict fits"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "high-roof van (Sprinter H2)",
+     "gt": "GT18",
+     "name": "Parking Talgarten",
+     "stage": "granularity",
+     "detail": "fused height 2.1 (observed, conf 0.8) vs posted 3.4; bay 2.35 m; verdict does_not_fit"
+    }
+   ],
+   "unmatched": [
+    "GT10",
+    "GT14"
+   ],
+   "n_features": 95,
+   "ambiguous": 1,
+   "error_stages": {
+    "completeness": 8,
+    "inference": 3,
+    "fusion": 1,
+    "granularity": 1
+   },
+   "height": {
+    "n_observed": 10,
+    "mae_observed": 0.135,
+    "within_5cm_observed": 0.9,
+    "n_inferred": 10,
+    "mae_inferred": 0.105
+   },
+   "matching": {
+    "tp": 16,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "n": 16,
+    "positives": 16,
+    "negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "accuracy": 1.0,
+    "false_admission_rate": null,
+    "balanced_accuracy": null,
+    "items": [
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT01"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT02"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT04"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT05"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT06"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT07"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT08"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT09"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT12"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT15"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT16"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT18"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT20"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT21"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT22"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT23"
+     }
+    ]
+   }
+  },
+  "osm+ogd+pls": {
+   "per_profile": {
+    "compact car (VW Golf)": {
+     "tp": 21,
+     "fp": 0,
+     "fn": 2,
+     "tn": 0,
+     "n": 23,
+     "positives": 23,
+     "negatives": 0,
+     "precision": 1.0,
+     "recall": 0.913,
+     "f1": 0.955,
+     "accuracy": 0.913,
+     "false_admission_rate": null,
+     "balanced_accuracy": null
+    },
+    "mid-size SUV (VW Tiguan)": {
+     "tp": 21,
+     "fp": 0,
+     "fn": 2,
+     "tn": 0,
+     "n": 23,
+     "positives": 23,
+     "negatives": 0,
+     "precision": 1.0,
+     "recall": 0.913,
+     "f1": 0.955,
+     "accuracy": 0.913,
+     "false_admission_rate": null,
+     "balanced_accuracy": null
+    },
+    "large SUV (Range Rover)": {
+     "tp": 18,
+     "fp": 3,
+     "fn": 2,
+     "tn": 0,
+     "n": 23,
+     "positives": 20,
+     "negatives": 3,
+     "precision": 0.857,
+     "recall": 0.9,
+     "f1": 0.878,
+     "accuracy": 0.783,
+     "false_admission_rate": 1.0,
+     "balanced_accuracy": 0.45
+    },
+    "standard-roof van (VW T6.1)": {
+     "tp": 19,
+     "fp": 1,
+     "fn": 2,
+     "tn": 1,
+     "n": 23,
+     "positives": 21,
+     "negatives": 2,
+     "precision": 0.95,
+     "recall": 0.905,
+     "f1": 0.927,
+     "accuracy": 0.87,
+     "false_admission_rate": 0.5,
+     "balanced_accuracy": 0.702
+    },
+    "high-roof van (Sprinter H2)": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 1,
+     "tn": 21,
+     "n": 23,
+     "positives": 2,
+     "negatives": 21,
+     "precision": 1.0,
+     "recall": 0.5,
+     "f1": 0.667,
+     "accuracy": 0.957,
+     "false_admission_rate": 0.0,
+     "balanced_accuracy": 0.75
+    }
+   },
+   "pooled": {
+    "tp": 80,
+    "fp": 4,
+    "fn": 9,
+    "tn": 22,
+    "n": 115,
+    "positives": 89,
+    "negatives": 26,
+    "precision": 0.952,
+    "recall": 0.899,
+    "f1": 0.925,
+    "accuracy": 0.887,
+    "false_admission_rate": 0.154,
+    "balanced_accuracy": 0.873
+   },
+   "errors": [
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT02",
+     "name": "Parking Bleicherweg",
+     "stage": "fusion",
+     "detail": "fused height 2.1 (observed, conf 0.9) vs posted 2.0; bay 2.17 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT09",
+     "name": "Parkhaus Jelmoli",
+     "stage": "fusion",
+     "detail": "fused height 2.0 (observed, conf 0.98) vs posted 2.0; bay 2.18 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT11",
+     "name": "Parkhaus Migros Limmatplatz",
+     "stage": "inference",
+     "detail": "fused height 2.1 (inferred, conf 0.35) vs posted 1.85; bay 2.41 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT11",
+     "name": "Parkhaus Migros Limmatplatz",
+     "stage": "inference",
+     "detail": "fused height 2.1 (inferred, conf 0.35) vs posted 1.85; bay 2.41 m; verdict fits"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "high-roof van (Sprinter H2)",
+     "gt": "GT18",
+     "name": "Parking Talgarten",
+     "stage": "granularity",
+     "detail": "fused height 2.1 (observed, conf 0.8) vs posted 3.4; bay 2.35 m; verdict does_not_fit"
+    }
+   ],
+   "unmatched": [
+    "GT10",
+    "GT14"
+   ],
+   "n_features": 95,
+   "ambiguous": 1,
+   "error_stages": {
+    "completeness": 8,
+    "fusion": 2,
+    "inference": 2,
+    "granularity": 1
+   },
+   "height": {
+    "n_observed": 15,
+    "mae_observed": 0.1,
+    "within_5cm_observed": 0.867,
+    "n_inferred": 5,
+    "mae_inferred": 0.15
+   },
+   "matching": {
+    "tp": 17,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "n": 17,
+    "positives": 17,
+    "negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "accuracy": 1.0,
+    "false_admission_rate": null,
+    "balanced_accuracy": null,
+    "items": [
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT01"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT02"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT04"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT05"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT06"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT07"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT08"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT09"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT12"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT15"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT16"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT18"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT19"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT20"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT21"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT22"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT23"
+     }
+    ]
+   }
+  },
+  "all_weighted": {
+   "per_profile": {
+    "compact car (VW Golf)": {
+     "tp": 21,
+     "fp": 0,
+     "fn": 2,
+     "tn": 0,
+     "n": 23,
+     "positives": 23,
+     "negatives": 0,
+     "precision": 1.0,
+     "recall": 0.913,
+     "f1": 0.955,
+     "accuracy": 0.913,
+     "false_admission_rate": null,
+     "balanced_accuracy": null
+    },
+    "mid-size SUV (VW Tiguan)": {
+     "tp": 21,
+     "fp": 0,
+     "fn": 2,
+     "tn": 0,
+     "n": 23,
+     "positives": 23,
+     "negatives": 0,
+     "precision": 1.0,
+     "recall": 0.913,
+     "f1": 0.955,
+     "accuracy": 0.913,
+     "false_admission_rate": null,
+     "balanced_accuracy": null
+    },
+    "large SUV (Range Rover)": {
+     "tp": 18,
+     "fp": 3,
+     "fn": 2,
+     "tn": 0,
+     "n": 23,
+     "positives": 20,
+     "negatives": 3,
+     "precision": 0.857,
+     "recall": 0.9,
+     "f1": 0.878,
+     "accuracy": 0.783,
+     "false_admission_rate": 1.0,
+     "balanced_accuracy": 0.45
+    },
+    "standard-roof van (VW T6.1)": {
+     "tp": 19,
+     "fp": 1,
+     "fn": 2,
+     "tn": 1,
+     "n": 23,
+     "positives": 21,
+     "negatives": 2,
+     "precision": 0.95,
+     "recall": 0.905,
+     "f1": 0.927,
+     "accuracy": 0.87,
+     "false_admission_rate": 0.5,
+     "balanced_accuracy": 0.702
+    },
+    "high-roof van (Sprinter H2)": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 1,
+     "tn": 21,
+     "n": 23,
+     "positives": 2,
+     "negatives": 21,
+     "precision": 1.0,
+     "recall": 0.5,
+     "f1": 0.667,
+     "accuracy": 0.957,
+     "false_admission_rate": 0.0,
+     "balanced_accuracy": 0.75
+    }
+   },
+   "pooled": {
+    "tp": 80,
+    "fp": 4,
+    "fn": 9,
+    "tn": 22,
+    "n": 115,
+    "positives": 89,
+    "negatives": 26,
+    "precision": 0.952,
+    "recall": 0.899,
+    "f1": 0.925,
+    "accuracy": 0.887,
+    "false_admission_rate": 0.154,
+    "balanced_accuracy": 0.873
+   },
+   "errors": [
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT02",
+     "name": "Parking Bleicherweg",
+     "stage": "fusion",
+     "detail": "fused height 2.1 (observed, conf 0.9) vs posted 2.0; bay 2.17 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT09",
+     "name": "Parkhaus Jelmoli",
+     "stage": "fusion",
+     "detail": "fused height 2.0 (observed, conf 0.98) vs posted 2.0; bay 2.18 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT11",
+     "name": "Parkhaus Migros Limmatplatz",
+     "stage": "inference",
+     "detail": "fused height 2.08 (inferred, conf 0.35) vs posted 1.85; bay 2.41 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT11",
+     "name": "Parkhaus Migros Limmatplatz",
+     "stage": "inference",
+     "detail": "fused height 2.08 (inferred, conf 0.35) vs posted 1.85; bay 2.41 m; verdict fits"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "high-roof van (Sprinter H2)",
+     "gt": "GT18",
+     "name": "Parking Talgarten",
+     "stage": "granularity",
+     "detail": "fused height 2.1 (observed, conf 0.8) vs posted 3.4; bay 2.35 m; verdict does_not_fit"
+    }
+   ],
+   "unmatched": [
+    "GT10",
+    "GT14"
+   ],
+   "n_features": 188,
+   "ambiguous": 10,
+   "error_stages": {
+    "completeness": 8,
+    "fusion": 2,
+    "inference": 2,
+    "granularity": 1
+   },
+   "height": {
+    "n_observed": 15,
+    "mae_observed": 0.1,
+    "within_5cm_observed": 0.867,
+    "n_inferred": 5,
+    "mae_inferred": 0.162
+   },
+   "matching": {
+    "tp": 20,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "n": 20,
+    "positives": 20,
+    "negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "accuracy": 1.0,
+    "false_admission_rate": null,
+    "balanced_accuracy": null,
+    "items": [
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT01"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT02"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT03"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT04"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT05"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT06"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT07"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT08"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT09"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT12"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT13"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT15"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT16"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT17"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT18"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT19"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT20"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT21"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT22"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT23"
+     }
+    ]
+   }
+  },
+  "all_dempster_shafer": {
+   "per_profile": {
+    "compact car (VW Golf)": {
+     "tp": 21,
+     "fp": 0,
+     "fn": 2,
+     "tn": 0,
+     "n": 23,
+     "positives": 23,
+     "negatives": 0,
+     "precision": 1.0,
+     "recall": 0.913,
+     "f1": 0.955,
+     "accuracy": 0.913,
+     "false_admission_rate": null,
+     "balanced_accuracy": null
+    },
+    "mid-size SUV (VW Tiguan)": {
+     "tp": 21,
+     "fp": 0,
+     "fn": 2,
+     "tn": 0,
+     "n": 23,
+     "positives": 23,
+     "negatives": 0,
+     "precision": 1.0,
+     "recall": 0.913,
+     "f1": 0.955,
+     "accuracy": 0.913,
+     "false_admission_rate": null,
+     "balanced_accuracy": null
+    },
+    "large SUV (Range Rover)": {
+     "tp": 18,
+     "fp": 3,
+     "fn": 2,
+     "tn": 0,
+     "n": 23,
+     "positives": 20,
+     "negatives": 3,
+     "precision": 0.857,
+     "recall": 0.9,
+     "f1": 0.878,
+     "accuracy": 0.783,
+     "false_admission_rate": 1.0,
+     "balanced_accuracy": 0.45
+    },
+    "standard-roof van (VW T6.1)": {
+     "tp": 19,
+     "fp": 1,
+     "fn": 2,
+     "tn": 1,
+     "n": 23,
+     "positives": 21,
+     "negatives": 2,
+     "precision": 0.95,
+     "recall": 0.905,
+     "f1": 0.927,
+     "accuracy": 0.87,
+     "false_admission_rate": 0.5,
+     "balanced_accuracy": 0.702
+    },
+    "high-roof van (Sprinter H2)": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 1,
+     "tn": 21,
+     "n": 23,
+     "positives": 2,
+     "negatives": 21,
+     "precision": 1.0,
+     "recall": 0.5,
+     "f1": 0.667,
+     "accuracy": 0.957,
+     "false_admission_rate": 0.0,
+     "balanced_accuracy": 0.75
+    }
+   },
+   "pooled": {
+    "tp": 80,
+    "fp": 4,
+    "fn": 9,
+    "tn": 22,
+    "n": 115,
+    "positives": 89,
+    "negatives": 26,
+    "precision": 0.952,
+    "recall": 0.899,
+    "f1": 0.925,
+    "accuracy": 0.887,
+    "false_admission_rate": 0.154,
+    "balanced_accuracy": 0.873
+   },
+   "errors": [
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "compact car (VW Golf)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "mid-size SUV (VW Tiguan)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT02",
+     "name": "Parking Bleicherweg",
+     "stage": "fusion",
+     "detail": "fused height 2.1 (observed, conf 0.9) vs posted 2.0; bay 2.17 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT09",
+     "name": "Parkhaus Jelmoli",
+     "stage": "fusion",
+     "detail": "fused height 2.0 (observed, conf 0.98) vs posted 2.0; bay 2.18 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT11",
+     "name": "Parkhaus Migros Limmatplatz",
+     "stage": "inference",
+     "detail": "fused height 2.1 (inferred, conf 0.35) vs posted 1.85; bay 2.41 m; verdict tight"
+    },
+    {
+     "profile": "large SUV (Range Rover)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT10",
+     "name": "Parking Kongress (AMAG)",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT11",
+     "name": "Parkhaus Migros Limmatplatz",
+     "stage": "inference",
+     "detail": "fused height 2.1 (inferred, conf 0.35) vs posted 1.85; bay 2.41 m; verdict fits"
+    },
+    {
+     "profile": "standard-roof van (VW T6.1)",
+     "gt": "GT14",
+     "name": "Tiefgarage Müllerstrasse 7a",
+     "stage": "completeness",
+     "detail": "facility absent from every source in this configuration"
+    },
+    {
+     "profile": "high-roof van (Sprinter H2)",
+     "gt": "GT18",
+     "name": "Parking Talgarten",
+     "stage": "granularity",
+     "detail": "fused height 2.1 (observed, conf 0.8) vs posted 3.4; bay 2.35 m; verdict does_not_fit"
+    }
+   ],
+   "unmatched": [
+    "GT10",
+    "GT14"
+   ],
+   "n_features": 188,
+   "ambiguous": 10,
+   "error_stages": {
+    "completeness": 8,
+    "fusion": 2,
+    "inference": 2,
+    "granularity": 1
+   },
+   "height": {
+    "n_observed": 15,
+    "mae_observed": 0.1,
+    "within_5cm_observed": 0.867,
+    "n_inferred": 5,
+    "mae_inferred": 0.15
+   },
+   "matching": {
+    "tp": 20,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "n": 20,
+    "positives": 20,
+    "negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "accuracy": 1.0,
+    "false_admission_rate": null,
+    "balanced_accuracy": null,
+    "items": [
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT01"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT02"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT03"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT04"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT05"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT06"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT07"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT08"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT09"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT12"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT13"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT15"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT16"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT17"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT18"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT19"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT20"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT21"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT22"
+     },
+     {
+      "predicted": true,
+      "actual": true,
+      "gt": "GT23"
+     }
+    ]
+   }
+  }
+ },
+ "always_fits": {
+  "per_profile": {
+   "compact car (VW Golf)": {
+    "tp": 23,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "n": 23,
+    "positives": 23,
+    "negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "accuracy": 1.0,
+    "false_admission_rate": null,
+    "balanced_accuracy": null
+   },
+   "mid-size SUV (VW Tiguan)": {
+    "tp": 23,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "n": 23,
+    "positives": 23,
+    "negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "accuracy": 1.0,
+    "false_admission_rate": null,
+    "balanced_accuracy": null
+   },
+   "large SUV (Range Rover)": {
+    "tp": 20,
+    "fp": 3,
+    "fn": 0,
+    "tn": 0,
+    "n": 23,
+    "positives": 20,
+    "negatives": 3,
+    "precision": 0.87,
+    "recall": 1.0,
+    "f1": 0.93,
+    "accuracy": 0.87,
+    "false_admission_rate": 1.0,
+    "balanced_accuracy": 0.5
+   },
+   "standard-roof van (VW T6.1)": {
+    "tp": 21,
+    "fp": 2,
+    "fn": 0,
+    "tn": 0,
+    "n": 23,
+    "positives": 21,
+    "negatives": 2,
+    "precision": 0.913,
+    "recall": 1.0,
+    "f1": 0.955,
+    "accuracy": 0.913,
+    "false_admission_rate": 1.0,
+    "balanced_accuracy": 0.5
+   },
+   "high-roof van (Sprinter H2)": {
+    "tp": 2,
+    "fp": 21,
+    "fn": 0,
+    "tn": 0,
+    "n": 23,
+    "positives": 2,
+    "negatives": 21,
+    "precision": 0.087,
+    "recall": 1.0,
+    "f1": 0.16,
+    "accuracy": 0.087,
+    "false_admission_rate": 1.0,
+    "balanced_accuracy": 0.5
+   }
+  },
+  "pooled": {
+   "tp": 89,
+   "fp": 26,
+   "fn": 0,
+   "tn": 0,
+   "n": 115,
+   "positives": 89,
+   "negatives": 26,
+   "precision": 0.774,
+   "recall": 1.0,
+   "f1": 0.873,
+   "accuracy": 0.774,
+   "false_admission_rate": 1.0,
+   "balanced_accuracy": 0.5
+  }
+ },
+ "matching": {
+  "tp": 20,
+  "fp": 0,
+  "fn": 0,
+  "tn": 0,
+  "n": 20,
+  "positives": 20,
+  "negatives": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "accuracy": 1.0,
+  "false_admission_rate": null,
+  "balanced_accuracy": null,
+  "items": [
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT01"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT02"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT03"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT04"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT05"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT06"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT07"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT08"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT09"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT12"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT13"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT15"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT16"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT17"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT18"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT19"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT20"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT21"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT22"
+   },
+   {
+    "predicted": true,
+    "actual": true,
+    "gt": "GT23"
+   }
+  ]
+ },
+ "model_comparison": {
+  "features_with_multiple_height_sources": 10,
+  "agree": 10,
+  "disagree": 0,
+  "details": [
+   {
+    "feature": "City Parking",
+    "weighted": 2.1,
+    "weighted_conf": 0.975,
+    "ds": 2.1,
+    "ds_conf": 0.975,
+    "ds_conflict_K": 0.0,
+    "values": [
+     "2.1@osm",
+     "2.1@pls"
+    ]
+   },
+   {
+    "feature": "Parkhaus Feldegg",
+    "weighted": 2.05,
+    "weighted_conf": 0.975,
+    "ds": 2.05,
+    "ds_conf": 0.975,
+    "ds_conflict_K": 0.0,
+    "values": [
+     "2.05@osm",
+     "2.05@pls"
+    ]
+   },
+   {
+    "feature": "Globus",
+    "weighted": 1.9,
+    "weighted_conf": 0.975,
+    "ds": 1.9,
+    "ds_conf": 0.975,
+    "ds_conflict_K": 0.0,
+    "values": [
+     "1.9@osm",
+     "1.9@pls"
+    ]
+   },
+   {
+    "feature": "Helvetiaplatz",
+    "weighted": 2.1,
+    "weighted_conf": 0.97,
+    "ds": 2.1,
+    "ds_conf": 0.97,
+    "ds_conflict_K": 0.0,
+    "values": [
+     "2.1@osm",
+     "2.1@pls"
+    ]
+   },
+   {
+    "feature": "Parkhaus Hohe Promenade",
+    "weighted": 2.1,
+    "weighted_conf": 0.98,
+    "ds": 2.1,
+    "ds_conf": 0.98,
+    "ds_conflict_K": 0.0,
+    "values": [
+     "2.1@osm",
+     "2.1@pls"
+    ]
+   },
+   {
+    "feature": "Parkhaus Jelmoli",
+    "weighted": 2.0,
+    "weighted_conf": 0.98,
+    "ds": 2.0,
+    "ds_conf": 0.98,
+    "ds_conflict_K": 0.0,
+    "values": [
+     "2.0@osm",
+     "2.0@pls"
+    ]
+   },
+   {
+    "feature": "Parkhaus Opéra",
+    "weighted": 2.1,
+    "weighted_conf": 0.98,
+    "ds": 2.1,
+    "ds_conf": 0.98,
+    "ds_conflict_K": 0.0,
+    "values": [
+     "2.1@osm",
+     "2.1@pls"
+    ]
+   },
+   {
+    "feature": "Parkhaus Stampfenbach",
+    "weighted": 2.0,
+    "weighted_conf": 0.965,
+    "ds": 2.0,
+    "ds_conf": 0.965,
+    "ds_conflict_K": 0.0,
+    "values": [
+     "2.0@osm",
+     "2.0@pls"
+    ]
+   },
+   {
+    "feature": "Parkhaus Urania",
+    "weighted": 2.1,
+    "weighted_conf": 0.975,
+    "ds": 2.1,
+    "ds_conf": 0.975,
+    "ds_conflict_K": 0.0,
+    "values": [
+     "2.1@osm",
+     "2.1@pls"
+    ]
+   },
+   {
+    "feature": "Parkhaus Zürichhorn",
+    "weighted": 2.0,
+    "weighted_conf": 0.975,
+    "ds": 2.0,
+    "ds_conf": 0.975,
+    "ds_conflict_K": 0.0,
+    "values": [
+     "2.0@osm",
+     "2.0@pls"
+    ]
+   }
+  ]
+ }
+}

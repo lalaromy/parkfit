@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>parkfit demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+ body{margin:0;font-family:system-ui,sans-serif;display:grid;grid-template-columns:360px 1fr;height:100vh}
+ #side{padding:12px;overflow:auto;border-right:1px solid #ddd}
+ #map{height:100vh}
+ label{display:block;margin:6px 0 2px;font-size:13px}
+ input,select{width:100%;padding:4px}
+ .r{border:1px solid #ddd;border-radius:6px;padding:8px;margin:8px 0;font-size:13px}
+ .fits{border-left:6px solid #2a9d8f}.tight{border-left:6px solid #e9c46a}.does_not_fit{border-left:6px solid #e76f51}.unknown{border-left:6px solid #999}
+ details{margin-top:4px}summary{cursor:pointer}
+ .ev{font-size:12px;color:#444;white-space:pre-wrap}
+</style></head><body>
+<div id="side">
+ <h3>parkfit: will my vehicle fit?</h3>
+ <label>Vehicle profile</label><select id="profile"></select>
+ <label>Height (m)</label><input id="h" type="number" step="0.01" value="1.99">
+ <label>Width (m)</label><input id="w" type="number" step="0.01" value="1.90">
+ <label>Search radius (m)</label><input id="rad" type="number" value="500">
+ <p style="font-size:12px;color:#555">Click the map to set the location. Results show the fused height limit, which sources contributed, whether the value was observed or inferred, and the resulting confidence.</p>
+ <div id="out"></div>
+</div>
+<div id="map"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const map=L.map('map').setView([47.3745,8.5400],14);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+let layer=L.layerGroup().addTo(map), pin=null;
+fetch('/profiles').then(r=>r.json()).then(ps=>{const s=document.getElementById('profile');ps.forEach(p=>{const o=document.createElement('option');o.value=JSON.stringify(p);o.textContent=`${p.name} (${p.height_m} x ${p.width_m} m)`;s.appendChild(o)});s.onchange=()=>{const p=JSON.parse(s.value);h.value=p.height_m;w.value=p.width_m;if(pin)query(pin.getLatLng())}});
+map.on('click',e=>{if(pin)pin.remove();pin=L.marker(e.latlng).addTo(map);query(e.latlng)});
+async function query(ll){
+ const q=new URLSearchParams({lat:ll.lat,lon:ll.lng,height:h.value,width:w.value,radius:rad.value,limit:50});
+ const res=(await (await fetch('/suitability?'+q)).json()).sort((a,b)=>a.distance_m-b.distance_m); // nearest first; verdict colour carries the ranking
+ layer.clearLayers();const out=document.getElementById('out');out.innerHTML='';
+ const col={fits:'#2a9d8f',tight:'#e9c46a',does_not_fit:'#e76f51',unknown:'#999'};
+ res.forEach(r=>{
+  L.circleMarker([r.feature.lat,r.feature.lon],{radius:9,color:col[r.verdict],fillOpacity:.8}).addTo(layer).bindPopup(`<b>${r.feature.name||'(unnamed)'}</b><br>${r.verdict} (score ${r.score})`);
+  const d=document.createElement('div');d.className='r '+r.verdict;
+  const mh=r.feature.attributes.maxheight;
+  d.innerHTML=`<b>${r.feature.name||'(unnamed)'}</b> &middot; ${r.distance_m} m<br><b>${r.verdict.replace('_',' ')}</b>, score ${r.score}<br>
+   max height: ${mh&&mh.value!=null?mh.value+' m':'none'} (${mh?mh.kind:'-'}, conf ${mh?mh.confidence:'-'}) &middot; sources: ${r.feature.sources.join(', ')}
+   <details><summary>evidence chain</summary><div class="ev">${r.assessments.map(a=>'• '+a.dimension+': '+a.explanation).join('\n')}</div></details>`;
+  out.appendChild(d);});
+ if(!res.length)out.textContent='No facilities within radius.';
+}
+</script></body></html>

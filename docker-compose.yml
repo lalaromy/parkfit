@@ -1,0 +1,13 @@
+services:
+  postgis:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_USER: parkfit
+      POSTGRES_PASSWORD: parkfit
+      POSTGRES_DB: parkfit
+    ports:
+      - "5433:5432"
+    volumes:
+      - parkfit_pg:/var/lib/postgresql/data
+volumes:
+  parkfit_pg:
