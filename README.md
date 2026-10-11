@@ -1,4 +1,4 @@
-# parkfit — a multi-source data fusion engine for vehicle-specific parking suitability
+# PARKFIT: A multi-source data fusion engine for vehicle-specific parking suitability
 
 ![ci](https://github.com/lalaromy/parkfit/actions/workflows/ci.yml/badge.svg)
 
